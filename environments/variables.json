@@ -11,5 +11,17 @@
   }, {
     "id" : "71xg7ek8517k",
     "name" : "ODCPortalURL"
+  }, {
+    "id" : "x7486k6gp419",
+    "name" : "LifetimeURL"
+  }, {
+    "id" : "6egk4p4rrg7e",
+    "name" : "FeatureToggleManagementURL"
+  }, {
+    "id" : "epk29e994rg4",
+    "name" : "LifetimeUsername"
+  }, {
+    "id" : "pp4xe7ee277y",
+    "name" : "LifetimePassword"
   } ]
 }

@@ -1,0 +1,68 @@
+{
+  "steps" : null,
+  "testStepGroups" : [ {
+    "groupType" : 0,
+    "groupName" : "Given user tries to log in with invalid credentials",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "gx2kr77o4po3",
+        "pageActionId" : "671cf56a-0686-4af6-af3c-7515df8b6b5e",
+        "variables" : [ {
+          "id" : "8b68ee26-078f-4ccb-b75a-9310cd6e5529",
+          "value" : "InvalidUser@valori.nl"
+        }, {
+          "id" : "8c343b68-eb73-45c3-80bb-18f086ba1874",
+          "value" : "InvalidPassword"
+        } ],
+        "ranSteps" : null
+      },
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "verifyText",
+        "object" : {
+          "type" : "pageObjectReference",
+          "object" : "",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : {
+            "pageId" : "p54gxex34qo7",
+            "objectId" : "a941dbb8-1d39-490b-bf83-13ff807c04bb"
+          }
+        },
+        "testdata" : {
+          "data" : "Invalid credentials.",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  } ],
+  "title" : "Login into ValoriApp with wrong credentials and verify logging in ODCPortal",
+  "description" : null,
+  "id" : "7gw5gd8x5x",
+  "dataDrivenStorageId" : null,
+  "tags" : [ ]
+}

@@ -1,0 +1,20 @@
+{
+  "objectType" : "PageObjectModel",
+  "id" : "p54gxex34qo7",
+  "title" : "Reusable elements",
+  "description" : null,
+  "objectType" : "PageObjectModel",
+  "tags" : null,
+  "objectList" : [ {
+    "id" : "a941dbb8-1d39-490b-bf83-13ff807c04bb",
+    "title" : "Feedback message text",
+    "testObjects" : [ {
+      "type" : "raw",
+      "object" : "className=feedback-message-text",
+      "pageScannerQuery" : null,
+      "pageObjectReference" : null
+    } ],
+    "index" : 1
+  } ],
+  "actionList" : [ ]
+}
