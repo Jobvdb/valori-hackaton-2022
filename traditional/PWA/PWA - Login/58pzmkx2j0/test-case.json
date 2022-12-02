@@ -69,7 +69,7 @@
     "groupCondition" : null
   }, {
     "groupType" : 0,
-    "groupName" : "Then I expect to be logged out and redirected homepage ",
+    "groupName" : "Then I expect to be logged out and redirected to homepage ",
     "testSteps" : [ {
       "version" : null,
       "result" : null,

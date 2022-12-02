@@ -123,7 +123,7 @@
     "groupCondition" : null
   }, {
     "groupType" : 0,
-    "groupName" : "And I can multiply Number 1 to Number 2 to get a value of 572",
+    "groupName" : "And I can add Number 1 to Number 2 to get a value of 147",
     "testSteps" : [ {
       "version" : null,
       "result" : null,
@@ -187,7 +187,7 @@
         "actionName" : "click",
         "object" : {
           "type" : "raw",
-          "object" : "id=btn_Keer",
+          "object" : "id=btn_Plus",
           "pageScannerQuery" : null,
           "pageObjectReference" : null
         },
@@ -244,7 +244,7 @@
         "actionName" : "verifyText",
         "object" : {
           "type" : "pageObjectReference",
-          "object" : "Feed",
+          "object" : "",
           "pageScannerQuery" : null,
           "pageObjectReference" : {
             "pageId" : "p54gxex34qo7",
@@ -252,7 +252,7 @@
           }
         },
         "testdata" : {
-          "data" : "572",
+          "data" : "146",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -268,9 +268,9 @@
     } ],
     "groupCondition" : null
   } ],
-  "title" : "PWA - Testcase Calculator (Multiply) - happy flow",
+  "title" : "PWA - Testcase Calculator (Add) - incorrect end result",
   "description" : null,
-  "id" : "xjmoq1kq71",
+  "id" : "g180ddr8v1",
   "dataDrivenStorageId" : null,
   "tags" : [ ]
 }
