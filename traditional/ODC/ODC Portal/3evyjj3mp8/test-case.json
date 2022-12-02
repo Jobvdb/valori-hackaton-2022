@@ -1,0 +1,155 @@
+{
+  "steps" : null,
+  "testStepGroups" : [ {
+    "groupType" : 0,
+    "groupName" : "New descriptive group",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "39kpro72pgp2",
+        "pageActionId" : "30fa96a2-677e-4c50-b2d1-754a93acfd24",
+        "variables" : [ {
+          "id" : "873bcc72-716d-42ce-a8c1-0e67ff4c778d",
+          "value" : "${UsernameOutsystems}"
+        }, {
+          "id" : "4c077e78-54c6-442a-8389-fe0afc2eaa7c",
+          "value" : "${PasswordOutsystems}"
+        } ],
+        "ranSteps" : null
+      },
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "7k7r532ppg36",
+        "pageActionId" : "234f929a-026a-41db-8316-ad2079cf9cec",
+        "variables" : [ {
+          "id" : "a9c0a277-919d-4e7d-b084-c6eb2b1398ae",
+          "value" : "bevangerrevink@valori.nl"
+        } ],
+        "ranSteps" : null
+      },
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "o94g2ekp7r56",
+        "pageActionId" : "b00822b7-d132-4e77-9bc5-d5e2a12e8133",
+        "variables" : null,
+        "ranSteps" : null
+      },
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : true,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "39kpro72pgp2",
+        "pageActionId" : "30fa96a2-677e-4c50-b2d1-754a93acfd24",
+        "variables" : [ {
+          "id" : "873bcc72-716d-42ce-a8c1-0e67ff4c778d",
+          "value" : "${UsernameOutsystems}"
+        }, {
+          "id" : "4c077e78-54c6-442a-8389-fe0afc2eaa7c",
+          "value" : "${PasswordOutsystems}"
+        } ],
+        "ranSteps" : null
+      },
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "click",
+        "object" : {
+          "type" : "raw",
+          "object" : "partialLinkText=Users & access",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "click",
+        "object" : {
+          "type" : "raw",
+          "object" : "linkText=Users",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  } ],
+  "title" : "adduseranddelete",
+  "description" : null,
+  "id" : "3evyjj3mp8",
+  "dataDrivenStorageId" : null,
+  "tags" : [ ]
+}

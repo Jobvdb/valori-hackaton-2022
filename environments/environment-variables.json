@@ -39,5 +39,10 @@
     "environmentId" : "yx29kgr1ep26",
     "variableId" : "r58p9e4yer58",
     "value" : "https://valori-eap-dev.outsystems.app/ValoriNeo/Login"
+  }, {
+    "id" : "rk23p99q5o73",
+    "environmentId" : "yx29kgr1ep26",
+    "variableId" : "x748699qq7y9",
+    "value" : "undefined"
   } ]
 }

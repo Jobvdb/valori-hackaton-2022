@@ -100,7 +100,7 @@
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "https://valori-eap.outsystems.dev/logs/",
+          "data" : "${ODCAppLogsURL}",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -121,10 +121,13 @@
       "webAction" : {
         "actionName" : "waitForObjectPresent",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "data-test-id=monitoring-filter-keyword",
           "pageScannerQuery" : null,
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "45or7pr55xq3",
+            "objectId" : "d28da3a1-686e-4e2e-b8f8-772012b9371c"
+          }
         },
         "testdata" : {
           "data" : "",
@@ -153,10 +156,13 @@
       "webAction" : {
         "actionName" : "type",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "data-test-id=monitoring-filter-keyword",
           "pageScannerQuery" : null,
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "45or7pr55xq3",
+            "objectId" : "d28da3a1-686e-4e2e-b8f8-772012b9371c"
+          }
         },
         "testdata" : {
           "data" : "Incorrect username or password.",
@@ -180,10 +186,13 @@
       "webAction" : {
         "actionName" : "waitForObjectPresent",
         "object" : {
-          "type" : "pageScanner",
+          "type" : "pageObjectReference",
           "object" : "className=pds-icon pds-icon-small range-picker-label-down-arrow",
           "pageScannerQuery" : "containsText=Dec%2002?hidden=false",
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "45or7pr55xq3",
+            "objectId" : "16f74ccd-d50f-4838-8d2d-4adf44ff2caf"
+          }
         },
         "testdata" : {
           "data" : "",
@@ -207,10 +216,13 @@
       "webAction" : {
         "actionName" : "click",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "className=pds-icon pds-icon-small range-picker-label-down-arrow",
           "pageScannerQuery" : null,
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "45or7pr55xq3",
+            "objectId" : "16f74ccd-d50f-4838-8d2d-4adf44ff2caf"
+          }
         },
         "testdata" : {
           "data" : "",
@@ -234,10 +246,13 @@
       "webAction" : {
         "actionName" : "waitForObjectPresent",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "id=b11-b7-SVG_Code",
           "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "45or7pr55xq3",
+            "objectId" : "cfab2217-22cd-4bbe-a532-ef4ab8618beb"
+          }
         },
         "testdata" : {
           "data" : "",
@@ -261,10 +276,13 @@
       "webAction" : {
         "actionName" : "click",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "id=b11-b7-SVG_Code",
           "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "45or7pr55xq3",
+            "objectId" : "cfab2217-22cd-4bbe-a532-ef4ab8618beb"
+          }
         },
         "testdata" : {
           "data" : "",
@@ -288,10 +306,13 @@
       "webAction" : {
         "actionName" : "waitForObjectPresent",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "className=range-picker-time-toggle",
           "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "45or7pr55xq3",
+            "objectId" : "5b6b546d-9eb5-482f-91e5-c1a9314bbcc7"
+          }
         },
         "testdata" : {
           "data" : "",
@@ -315,10 +336,13 @@
       "webAction" : {
         "actionName" : "click",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "className=range-picker-time-toggle",
           "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "45or7pr55xq3",
+            "objectId" : "5b6b546d-9eb5-482f-91e5-c1a9314bbcc7"
+          }
         },
         "testdata" : {
           "data" : "",
@@ -342,10 +366,13 @@
       "webAction" : {
         "actionName" : "waitForObjectPresent",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "className=btn btn-primary range-picker-button-apply",
           "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "45or7pr55xq3",
+            "objectId" : "fc06a7c5-5505-487a-bb30-68d8ae288a70"
+          }
         },
         "testdata" : {
           "data" : "",
@@ -369,10 +396,13 @@
       "webAction" : {
         "actionName" : "click",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "className=btn btn-primary range-picker-button-apply",
           "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "45or7pr55xq3",
+            "objectId" : "fc06a7c5-5505-487a-bb30-68d8ae288a70"
+          }
         },
         "testdata" : {
           "data" : "",
@@ -396,10 +426,13 @@
       "webAction" : {
         "actionName" : "waitForObjectPresent",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "className=font-size-xs",
           "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "45or7pr55xq3",
+            "objectId" : "d0c8e7c0-2351-497b-864c-0cee9c3345de"
+          }
         },
         "testdata" : {
           "data" : "",
@@ -423,10 +456,13 @@
       "webAction" : {
         "actionName" : "click",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "className=font-size-xs",
           "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "45or7pr55xq3",
+            "objectId" : "d0c8e7c0-2351-497b-864c-0cee9c3345de"
+          }
         },
         "testdata" : {
           "data" : "",
@@ -455,10 +491,13 @@
       "webAction" : {
         "actionName" : "verifyObjectPresent",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "data-test-id=logs-detail-message",
           "pageScannerQuery" : null,
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "45or7pr55xq3",
+            "objectId" : "5f8c703c-c504-4580-99f2-6ed014fdb223"
+          }
         },
         "testdata" : {
           "data" : "",
@@ -482,10 +521,13 @@
       "webAction" : {
         "actionName" : "verifyText",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "data-test-id=logs-detail-message",
           "pageScannerQuery" : null,
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "45or7pr55xq3",
+            "objectId" : "5f8c703c-c504-4580-99f2-6ed014fdb223"
+          }
         },
         "testdata" : {
           "data" : "Error in the builtin login flow.\nIncorrect username or password.",
