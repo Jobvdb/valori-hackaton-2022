@@ -123,7 +123,7 @@
     "groupCondition" : null
   }, {
     "groupType" : 0,
-    "groupName" : "And I can multiply Number 1 to Number 2 to get a value of 572",
+    "groupName" : "And I can multiply Number 1 to Number 2 to get a result of 0",
     "testSteps" : [ {
       "version" : null,
       "result" : null,
@@ -165,7 +165,7 @@
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "4",
+          "data" : "0",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -252,7 +252,7 @@
           }
         },
         "testdata" : {
-          "data" : "572",
+          "data" : "0",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -271,6 +271,6 @@
   "title" : "PWA - Testcase Calculator (Multiply by 0)",
   "description" : null,
   "id" : "xjmoqq6ym1",
-  "dataDrivenStorageId" : null,
+  "dataDrivenStorageId" : "oy3pko1k86o4",
   "tags" : [ ]
 }
