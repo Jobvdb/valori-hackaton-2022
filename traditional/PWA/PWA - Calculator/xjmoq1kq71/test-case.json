@@ -1,56 +1,44 @@
 {
-  "objectType" : "PageObjectModel",
-  "id" : "7k7r532ppg36",
-  "title" : "ODC Create User",
-  "description" : null,
-  "objectType" : "PageObjectModel",
-  "tags" : null,
-  "objectList" : [ {
-    "id" : "8cb2e9d9-4836-4a2a-8fd5-111e5d3945aa",
-    "title" : "SelectRoleDeveloperUser",
-    "testObjects" : [ {
-      "type" : "raw",
-      "object" : "className=dropdown-popup-row",
-      "pageScannerQuery" : null,
-      "pageObjectReference" : null
-    } ],
-    "index" : 3
-  } ],
-  "actionList" : [ {
-    "id" : "234f929a-026a-41db-8316-ad2079cf9cec",
-    "title" : " ODC Create User action",
-    "variableList" : [ {
-      "id" : "a9c0a277-919d-4e7d-b084-c6eb2b1398ae",
-      "name" : "emailnewuser"
-    } ],
-    "steps" : [ {
+  "steps" : null,
+  "testStepGroups" : [ {
+    "groupType" : 0,
+    "groupName" : "Given I am logged in as a user",
+    "testSteps" : [ {
       "version" : null,
       "result" : null,
       "message" : null,
       "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "click",
-        "object" : {
-          "type" : "pageScanner",
-          "object" : "partialLinkText=Users & access",
-          "pageScannerQuery" : "basic=clickable?containsText=user?hidden=false",
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
+      "webAction" : null,
       "apiAction" : null,
-      "pageActionReference" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "q74gp529p729",
+        "pageActionId" : "fa467796-6767-413d-8cda-8c1c397e2d16",
+        "variables" : [ {
+          "id" : "8b68ee26-078f-4ccb-b75a-9310cd6e5529",
+          "value" : "testuser@valori.nl"
+        }, {
+          "id" : "8c343b68-eb73-45c3-80bb-18f086ba1874",
+          "value" : "TestUser1"
+        }, {
+          "id" : "db827687-8aad-4984-8376-1697e79984cd",
+          "value" : "TestUser@valori.nl"
+        }, {
+          "id" : "6de86eaa-8f40-4c59-a161-9202bcd9bcb5",
+          "value" : "TestUser1"
+        } ],
+        "ranSteps" : null
+      },
       "dataSheetReference" : null,
       "testStepGroup" : null,
       "contextId" : null,
       "hasBreakpoint" : false,
       "isDisabled" : false
-    }, {
+    } ],
+    "groupCondition" : null
+  }, {
+    "groupType" : 0,
+    "groupName" : "Then I can open the Calculator",
+    "testSteps" : [ {
       "version" : null,
       "result" : null,
       "message" : null,
@@ -58,36 +46,9 @@
       "webAction" : {
         "actionName" : "click",
         "object" : {
-          "type" : "pageScanner",
-          "object" : "linkText=Users",
-          "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "click",
-        "object" : {
-          "type" : "pageScanner",
-          "object" : "data-test-id=InviteUsers_Button",
-          "pageScannerQuery" : "basic=clickable?hidden=false",
+          "type" : "raw",
+          "object" : "linkText=Go to Calculator",
+          "pageScannerQuery" : null,
           "pageObjectReference" : null
         },
         "testdata" : {
@@ -112,13 +73,99 @@
       "webAction" : {
         "actionName" : "type",
         "object" : {
-          "type" : "pageScanner",
-          "object" : "data-test-id=invite-email-input",
-          "pageScannerQuery" : "basic=writable?hidden=false",
+          "type" : "raw",
+          "object" : "id=Input_Number1",
+          "pageScannerQuery" : null,
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "${emailnewuser}",
+          "data" : "143",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "type",
+        "object" : {
+          "type" : "raw",
+          "object" : "id=Input_Number2",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "27",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  }, {
+    "groupType" : 0,
+    "groupName" : "And I can multiply Number 1 to Number 2 to get a value of 572",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "type",
+        "object" : {
+          "type" : "raw",
+          "object" : "id=Input_Number1",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "143",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "type",
+        "object" : {
+          "type" : "raw",
+          "object" : "id=Input_Number2",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "4",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -139,16 +186,13 @@
       "webAction" : {
         "actionName" : "click",
         "object" : {
-          "type" : "pageScanner",
-          "object" : "className=role-dropdown",
-          "pageScannerQuery" : "basic=clickable,writable?hidden=false",
-          "pageObjectReference" : {
-            "pageId" : "7k7r532ppg36",
-            "objectId" : "8cb2e9d9-4836-4a2a-8fd5-111e5d3945aa"
-          }
+          "type" : "raw",
+          "object" : "id=btn_Keer",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "Developer",
+          "data" : "",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -167,14 +211,14 @@
       "message" : null,
       "executionTimeMs" : 0,
       "webAction" : {
-        "actionName" : "click",
+        "actionName" : "waitForObjectPresent",
         "object" : {
           "type" : "pageObjectReference",
           "object" : "",
-          "pageScannerQuery" : "basic=clickable?hidden=false",
+          "pageScannerQuery" : null,
           "pageObjectReference" : {
-            "pageId" : "7k7r532ppg36",
-            "objectId" : "8cb2e9d9-4836-4a2a-8fd5-111e5d3945aa"
+            "pageId" : "p54gxex34qo7",
+            "objectId" : "a941dbb8-1d39-490b-bf83-13ff807c04bb"
           }
         },
         "testdata" : {
@@ -197,15 +241,18 @@
       "message" : null,
       "executionTimeMs" : 0,
       "webAction" : {
-        "actionName" : "click",
+        "actionName" : "verifyText",
         "object" : {
-          "type" : "pageScanner",
-          "object" : "data-test-id=send-invite-button",
-          "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : null
+          "type" : "pageObjectReference",
+          "object" : "Feed",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : {
+            "pageId" : "p54gxex34qo7",
+            "objectId" : "a941dbb8-1d39-490b-bf83-13ff807c04bb"
+          }
         },
         "testdata" : {
-          "data" : "",
+          "data" : "572",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -218,6 +265,12 @@
       "contextId" : null,
       "hasBreakpoint" : false,
       "isDisabled" : false
-    } ]
-  } ]
+    } ],
+    "groupCondition" : null
+  } ],
+  "title" : "PWA - Testcase Calculator (Multiply)",
+  "description" : null,
+  "id" : "xjmoq1kq71",
+  "dataDrivenStorageId" : null,
+  "tags" : [ ]
 }
