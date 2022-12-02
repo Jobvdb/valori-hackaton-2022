@@ -12,8 +12,8 @@
       "apiAction" : null,
       "pageActionReference" : {
         "pageObjectModelId" : "gx2kr77o4po3",
-        "pageActionId" : "a8041a4b-d5d9-48ef-9f48-8ad50432c791",
-        "variables" : null,
+        "pageActionId" : "",
+        "variables" : [ ],
         "ranSteps" : null
       },
       "dataSheetReference" : null,
