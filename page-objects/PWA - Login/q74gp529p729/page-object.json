@@ -60,7 +60,7 @@
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "https://valori-dev.outsystemscloud.com/ValoriMobilePWA/Login",
+          "data" : "https://valori-dev.outsystemscloud.com/PreviewInDevices/?IsMobilePreview=True&DeviceName=Smartphone&URL=/ValoriMobilePWA/",
           "type" : "text"
         },
         "takeScreenshot" : "0",
