@@ -8,7 +8,7 @@
   "objectList" : [ ],
   "actionList" : [ {
     "id" : "b00822b7-d132-4e77-9bc5-d5e2a12e8133",
-    "title" : "New ODC Fill user info action",
+    "title" : "New ODC Fill user info action and log off",
     "variableList" : [ ],
     "steps" : [ {
       "version" : null,
@@ -129,6 +129,33 @@
           "type" : "pageScanner",
           "object" : "data-test-id=CreateAccount_Button",
           "pageScannerQuery" : "basic=clickable?hidden=false",
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "click",
+        "object" : {
+          "type" : "pageScanner",
+          "object" : "innerText=Log out",
+          "pageScannerQuery" : "basic=clickable?hidden=true",
           "pageObjectReference" : null
         },
         "testdata" : {

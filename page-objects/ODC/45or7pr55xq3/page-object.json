@@ -1,0 +1,80 @@
+{
+  "objectType" : "PageObjectModel",
+  "id" : "45or7pr55xq3",
+  "title" : "ODC Portal - Logs",
+  "description" : null,
+  "objectType" : "PageObjectModel",
+  "tags" : null,
+  "objectList" : [ {
+    "id" : "d28da3a1-686e-4e2e-b8f8-772012b9371c",
+    "title" : "Search input",
+    "testObjects" : [ {
+      "type" : "raw",
+      "object" : "data-test-id=monitoring-filter-keyword",
+      "pageScannerQuery" : null,
+      "pageObjectReference" : null
+    } ],
+    "index" : 1
+  }, {
+    "id" : "16f74ccd-d50f-4838-8d2d-4adf44ff2caf",
+    "title" : "Datepicker dropdown",
+    "testObjects" : [ {
+      "type" : "raw",
+      "object" : "className=pds-icon pds-icon-small range-picker-label-down-arrow",
+      "pageScannerQuery" : null,
+      "pageObjectReference" : null
+    } ],
+    "index" : 1
+  }, {
+    "id" : "cfab2217-22cd-4bbe-a532-ef4ab8618beb",
+    "title" : "Minutes From - Arrow Down",
+    "testObjects" : [ {
+      "type" : "raw",
+      "object" : "className=pds-icon pds-icon-small range-picker-label-down-arrow",
+      "pageScannerQuery" : null,
+      "pageObjectReference" : null
+    } ],
+    "index" : 1
+  }, {
+    "id" : "5b6b546d-9eb5-482f-91e5-c1a9314bbcc7",
+    "title" : "AM - PM Selector - From",
+    "testObjects" : [ {
+      "type" : "raw",
+      "object" : "className=range-picker-time-toggle",
+      "pageScannerQuery" : null,
+      "pageObjectReference" : null
+    } ],
+    "index" : 1
+  }, {
+    "id" : "fc06a7c5-5505-487a-bb30-68d8ae288a70",
+    "title" : "Datapicker - Apply button",
+    "testObjects" : [ {
+      "type" : "raw",
+      "object" : "className=btn btn-primary range-picker-button-apply",
+      "pageScannerQuery" : null,
+      "pageObjectReference" : null
+    } ],
+    "index" : 1
+  }, {
+    "id" : "d0c8e7c0-2351-497b-864c-0cee9c3345de",
+    "title" : "First log link",
+    "testObjects" : [ {
+      "type" : "raw",
+      "object" : "className=font-size-xs",
+      "pageScannerQuery" : null,
+      "pageObjectReference" : null
+    } ],
+    "index" : 1
+  }, {
+    "id" : "5f8c703c-c504-4580-99f2-6ed014fdb223",
+    "title" : "Logs - Details message",
+    "testObjects" : [ {
+      "type" : "raw",
+      "object" : "data-test-id=logs-detail-message",
+      "pageScannerQuery" : null,
+      "pageObjectReference" : null
+    } ],
+    "index" : 1
+  } ],
+  "actionList" : [ ]
+}
