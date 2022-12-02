@@ -21,7 +21,7 @@
           "value" : "Development"
         }, {
           "id" : "b3f3f710-5cf2-4ac0-815b-f977518be7e7",
-          "value" : "On"
+          "value" : "Off"
         } ],
         "ranSteps" : null
       },
@@ -238,7 +238,7 @@
         "actionName" : "verifyObjectPresent",
         "object" : {
           "type" : "raw",
-          "object" : "innerText=24",
+          "object" : "innerText=This function is behind a Feature Toggle",
           "pageScannerQuery" : null,
           "pageObjectReference" : null
         },
@@ -259,9 +259,9 @@
     } ],
     "groupCondition" : null
   } ],
-  "title" : "Check logic behind toggle",
+  "title" : "Check logic behind toggle when off",
   "description" : null,
-  "id" : "3evyjmvo38",
+  "id" : "852nqr3omg",
   "dataDrivenStorageId" : null,
   "tags" : [ ]
 }
