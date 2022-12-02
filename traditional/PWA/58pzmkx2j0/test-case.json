@@ -1,7 +1,30 @@
 {
   "steps" : null,
-  "testStepGroups" : [ ],
-  "title" : "First Test",
+  "testStepGroups" : [ {
+    "groupType" : 0,
+    "groupName" : "Open Login page en inloggen",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "gx2kr77o4po3",
+        "pageActionId" : "a8041a4b-d5d9-48ef-9f48-8ad50432c791",
+        "variables" : null,
+        "ranSteps" : null
+      },
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  } ],
+  "title" : "PWA",
   "description" : null,
   "id" : "58pzmkx2j0",
   "dataDrivenStorageId" : null,
