@@ -33,14 +33,14 @@
     } ],
     "name" : "Samsung Galaxy S21"
   }, {
-    "active" : false,
+    "active" : true,
     "data" : [ {
       "key" : "DeviceTechnicalName",
       "value" : "Google Pixel 5 (390x844)"
     } ],
     "name" : "Google Pixel 5"
   }, {
-    "active" : false,
+    "active" : true,
     "data" : [ {
       "key" : "DeviceTechnicalName",
       "value" : "Samsung Galaxy Tab S7 (585 x 902)"
