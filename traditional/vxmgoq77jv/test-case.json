@@ -15,10 +15,10 @@
         "pageActionId" : "671cf56a-0686-4af6-af3c-7515df8b6b5e",
         "variables" : [ {
           "id" : "8b68ee26-078f-4ccb-b75a-9310cd6e5529",
-          "value" : "outsystems@valori.nl"
+          "value" : "${UsernameOutsystems}"
         }, {
           "id" : "8c343b68-eb73-45c3-80bb-18f086ba1874",
-          "value" : "TechFirstTestSecond1"
+          "value" : "${PasswordOutsystems}"
         } ],
         "ranSteps" : null
       },

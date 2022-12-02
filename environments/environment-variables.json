@@ -5,9 +5,19 @@
     "variableId" : "5675x49g287q",
     "value" : "outsystems@valori.nl"
   }, {
+    "id" : "92y75o3r7o9y",
+    "environmentId" : "yx29kgr1ep26",
+    "variableId" : "r58p9e4yer58",
+    "value" : "https://valori-eap-dev.outsystems.app/ValoriNeo/Login"
+  }, {
+    "id" : "391yxg5o33xo",
+    "environmentId" : "yx29kgr1ep26",
+    "variableId" : "71xg7ek8517k",
+    "value" : "https://valori-eap.outsystems.dev/"
+  }, {
     "id" : "g7g5xy3o31qx",
     "environmentId" : "yx29kgr1ep26",
     "variableId" : "pp4xe7y8ypxy",
-    "value" : "TechFirstTestSecond"
+    "value" : "TechFirstTestSecond1"
   } ]
 }
