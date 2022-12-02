@@ -1,3 +1,9 @@
 {
-  "variables" : [ ]
+  "variables" : [ {
+    "id" : "5675x49g287q",
+    "name" : "UsernameOutsystems"
+  }, {
+    "id" : "pp4xe7y8ypxy",
+    "name" : "PasswordOutsystems"
+  } ]
 }
