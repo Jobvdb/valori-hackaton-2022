@@ -1,0 +1,153 @@
+{
+  "objectType" : "PageObjectModel",
+  "id" : "p54gxegpgg47",
+  "title" : "rekenmachine",
+  "description" : null,
+  "objectType" : "PageObjectModel",
+  "tags" : null,
+  "objectList" : [ {
+    "id" : "a345d037-8ec0-4d3b-95c8-5fa78452200f",
+    "title" : "CalculationOperator",
+    "testObjects" : [ {
+      "type" : "raw",
+      "object" : "className=btn",
+      "pageScannerQuery" : null,
+      "pageObjectReference" : null
+    }, {
+      "type" : "raw",
+      "object" : "innerText=${CalcOperator}",
+      "pageScannerQuery" : null,
+      "pageObjectReference" : null
+    } ],
+    "index" : 1
+  } ],
+  "actionList" : [ {
+    "id" : "cb184cea-768c-431c-9129-52f9b5d16e52",
+    "title" : "ExecuteCalculator",
+    "variableList" : [ {
+      "id" : "61c91ba4-3838-47af-bf53-3882d0933934",
+      "name" : "value1"
+    }, {
+      "id" : "64c61049-2017-41d8-b18b-3a867b91d2ec",
+      "name" : "value2"
+    }, {
+      "id" : "d7a9df71-ba43-44b7-9af9-adc392eb9025",
+      "name" : "calculatedvalue"
+    }, {
+      "id" : "4671be59-0ff7-4e29-ac7f-00a8a90f9561",
+      "name" : "CalcOperator"
+    } ],
+    "steps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "type",
+        "object" : {
+          "type" : "pageScanner",
+          "object" : "id=Input_Number1",
+          "pageScannerQuery" : "basic=writable?hidden=false",
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "${value1}",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "type",
+        "object" : {
+          "type" : "pageScanner",
+          "object" : "id=Input_Number2",
+          "pageScannerQuery" : "basic=writable?hidden=false",
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "${value2}",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "click",
+        "object" : {
+          "type" : "pageObjectReference",
+          "object" : "",
+          "pageScannerQuery" : "basic=clickable?hidden=false",
+          "pageObjectReference" : {
+            "pageId" : "p54gxegpgg47",
+            "objectId" : "a345d037-8ec0-4d3b-95c8-5fa78452200f"
+          }
+        },
+        "testdata" : {
+          "data" : "X",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "verifyText",
+        "object" : {
+          "type" : "pageScanner",
+          "object" : "className=feedback-message-text",
+          "pageScannerQuery" : "basic=readable?hidden=false",
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "${calculatedvalue}",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ]
+  } ]
+}
