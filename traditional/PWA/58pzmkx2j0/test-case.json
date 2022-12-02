@@ -2,7 +2,7 @@
   "steps" : null,
   "testStepGroups" : [ {
     "groupType" : 0,
-    "groupName" : "Open Login page en inloggen",
+    "groupName" : "Given I am logged in as a user",
     "testSteps" : [ {
       "version" : null,
       "result" : null,
@@ -12,8 +12,14 @@
       "apiAction" : null,
       "pageActionReference" : {
         "pageObjectModelId" : "gx2kr77o4po3",
-        "pageActionId" : "a8041a4b-d5d9-48ef-9f48-8ad50432c791",
-        "variables" : null,
+        "pageActionId" : "671cf56a-0686-4af6-af3c-7515df8b6b5e",
+        "variables" : [ {
+          "id" : "8b68ee26-078f-4ccb-b75a-9310cd6e5529",
+          "value" : "testuser@valori.nl"
+        }, {
+          "id" : "8c343b68-eb73-45c3-80bb-18f086ba1874",
+          "value" : "TestUser1"
+        } ],
         "ranSteps" : null
       },
       "dataSheetReference" : null,
@@ -23,8 +29,72 @@
       "isDisabled" : false
     } ],
     "groupCondition" : null
+  }, {
+    "groupType" : 0,
+    "groupName" : "When I click on the log out button",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "click",
+        "object" : {
+          "type" : "raw",
+          "object" : "partialID=Icon3",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  }, {
+    "groupType" : 0,
+    "groupName" : "Then I expect to be logged out and redirected homepage ",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "verifyTextPresent",
+        "object" : {
+          "type" : "raw",
+          "object" : "linkText=Login",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
   } ],
-  "title" : "PWA",
+  "title" : "PWA - Testcase login and logout",
   "description" : null,
   "id" : "58pzmkx2j0",
   "dataDrivenStorageId" : null,

@@ -1,0 +1,13 @@
+{
+  "objectType" : "DataDrivenStorage",
+  "id" : "9r1k58929263",
+  "title" : "Users",
+  "description" : null,
+  "objectType" : null,
+  "variableRunDataList" : [ {
+    "active" : true,
+    "data" : [ ],
+    "name" : "test case 1"
+  } ],
+  "type" : "DATA_DRIVEN"
+}

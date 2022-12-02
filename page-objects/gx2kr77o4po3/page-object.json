@@ -3,6 +3,7 @@
   "id" : "gx2kr77o4po3",
   "title" : "Login page",
   "description" : null,
+  "objectType" : "PageObjectModel",
   "tags" : null,
   "objectList" : [ {
     "id" : "5b87f48d-97d3-4819-9217-6d49b6896f85",
@@ -69,7 +70,7 @@
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "https://valori-eap-dev.outsystems.app/ValoriNeo/Login",
+          "data" : "https://valori-dev.outsystemscloud.com/PreviewInDevices/?IsMobilePreview=True&DeviceName=Smartphone&URL=/ValoriMobilePWA/",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -117,16 +118,13 @@
       "webAction" : {
         "actionName" : "type",
         "object" : {
-          "type" : "pageObjectReference",
-          "object" : "id=Input_Username",
+          "type" : "raw",
+          "object" : "id=Input_PasswordVal",
           "pageScannerQuery" : null,
-          "pageObjectReference" : {
-            "pageId" : "gx2kr77o4po3",
-            "objectId" : "5b87f48d-97d3-4819-9217-6d49b6896f85"
-          }
+          "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "${username}",
+          "data" : "${password}",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -147,16 +145,13 @@
       "webAction" : {
         "actionName" : "type",
         "object" : {
-          "type" : "pageObjectReference",
-          "object" : "id=Input_Password",
+          "type" : "raw",
+          "object" : "id=Input_UsernameVal",
           "pageScannerQuery" : null,
-          "pageObjectReference" : {
-            "pageId" : "gx2kr77o4po3",
-            "objectId" : "ba71cd04-f237-46cd-97d2-b8d9d64f1d0c"
-          }
+          "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "${password}",
+          "data" : "${username}",
           "type" : "text"
         },
         "takeScreenshot" : "0",
