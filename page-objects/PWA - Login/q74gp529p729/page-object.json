@@ -163,7 +163,7 @@
         "actionName" : "click",
         "object" : {
           "type" : "raw",
-          "object" : "partialID=button",
+          "object" : "id=b6-Button",
           "pageScannerQuery" : null,
           "pageObjectReference" : null
         },
