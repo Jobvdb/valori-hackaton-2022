@@ -1,0 +1,29 @@
+{
+  "baseUrl" : null,
+  "activeEnvironmentId" : null,
+  "webAUTPreferences" : {
+    "browser" : "Remote Chrome",
+    "stopWhenElementNotFound" : false
+  },
+  "securitySettings" : {
+    "certificateSettings" : {
+      "storePath" : "C:\\tools\\josf\\valori-hackaton\\api\\bin\\jdk8u312-b07\\jre\\lib\\security\\cacerts",
+      "storePassword" : "changeit",
+      "storeType" : "jks",
+      "sslCheckingDisabled" : false
+    },
+    "proxySettings" : {
+      "proxyHost" : null,
+      "proxyPort" : 8080,
+      "proxyUsername" : null,
+      "proxyPassword" : null,
+      "isEnabled" : false,
+      "isEnabledForDriverDownload" : false,
+      "isEnabledForBrowserProxy" : false,
+      "isEnabledForAPIRequests" : false,
+      "useCredentials" : false,
+      "autoDetect" : false
+    }
+  },
+  "licence" : "Valori-Hackaton\r\nXblMkxHOMx34dMECvL9Yb9iHOXiojGbyJ+pMDiZzK2ugCTV+aV8LDBb9TGtwoi7mDzPuZKOvm4M3\r\noOzUl0BO0qp+2Bob81gTzcKJlwqxF0CX8vvc/PEYm2fbhMGSj3RB"
+}
