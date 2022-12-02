@@ -3,48 +3,9 @@
   "id" : "gx2kr77o4po3",
   "title" : "Login page",
   "description" : null,
+  "objectType" : "PageObjectModel",
   "tags" : null,
-  "objectList" : [ {
-    "id" : "5b87f48d-97d3-4819-9217-6d49b6896f85",
-    "title" : "UserName Input",
-    "testObjects" : [ {
-      "type" : "raw",
-      "object" : "id=Input_Username",
-      "pageScannerQuery" : null,
-      "pageObjectReference" : null
-    } ],
-    "index" : 1
-  }, {
-    "id" : "978e4e75-0f10-4c84-91cf-c6eb252a4086",
-    "title" : "New Login page object",
-    "testObjects" : [ {
-      "type" : "raw",
-      "object" : "",
-      "pageScannerQuery" : null,
-      "pageObjectReference" : null
-    } ],
-    "index" : 1
-  }, {
-    "id" : "ba71cd04-f237-46cd-97d2-b8d9d64f1d0c",
-    "title" : "Password Input",
-    "testObjects" : [ {
-      "type" : "raw",
-      "object" : "id=Input_Password",
-      "pageScannerQuery" : null,
-      "pageObjectReference" : null
-    } ],
-    "index" : 1
-  }, {
-    "id" : "d4c260f3-ddd8-4a46-a36d-12aacc325241",
-    "title" : "Login btn",
-    "testObjects" : [ {
-      "type" : "raw",
-      "object" : "className=btn btn-primary OSFillParent",
-      "pageScannerQuery" : null,
-      "pageObjectReference" : null
-    } ],
-    "index" : 1
-  } ],
+  "objectList" : [ ],
   "actionList" : [ {
     "id" : "671cf56a-0686-4af6-af3c-7515df8b6b5e",
     "title" : "Log in user",
@@ -117,13 +78,10 @@
       "webAction" : {
         "actionName" : "type",
         "object" : {
-          "type" : "pageObjectReference",
+          "type" : "raw",
           "object" : "id=Input_Username",
           "pageScannerQuery" : null,
-          "pageObjectReference" : {
-            "pageId" : "gx2kr77o4po3",
-            "objectId" : "5b87f48d-97d3-4819-9217-6d49b6896f85"
-          }
+          "pageObjectReference" : null
         },
         "testdata" : {
           "data" : "${username}",
@@ -147,13 +105,10 @@
       "webAction" : {
         "actionName" : "type",
         "object" : {
-          "type" : "pageObjectReference",
+          "type" : "raw",
           "object" : "id=Input_Password",
           "pageScannerQuery" : null,
-          "pageObjectReference" : {
-            "pageId" : "gx2kr77o4po3",
-            "objectId" : "ba71cd04-f237-46cd-97d2-b8d9d64f1d0c"
-          }
+          "pageObjectReference" : null
         },
         "testdata" : {
           "data" : "${password}",
@@ -177,13 +132,10 @@
       "webAction" : {
         "actionName" : "click",
         "object" : {
-          "type" : "pageObjectReference",
-          "object" : "",
+          "type" : "raw",
+          "object" : "className=btn btn-primary OSFillParent",
           "pageScannerQuery" : null,
-          "pageObjectReference" : {
-            "pageId" : "gx2kr77o4po3",
-            "objectId" : "d4c260f3-ddd8-4a46-a36d-12aacc325241"
-          }
+          "pageObjectReference" : null
         },
         "testdata" : {
           "data" : "",
@@ -196,6 +148,191 @@
       "pageActionReference" : null,
       "dataSheetReference" : null,
       "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ]
+  }, {
+    "id" : "a8041a4b-d5d9-48ef-9f48-8ad50432c791",
+    "title" : "Open Login page en inloggen",
+    "variableList" : [ ],
+    "steps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : {
+        "groupType" : 0,
+        "groupName" : "Open page en login",
+        "testSteps" : [ {
+          "version" : null,
+          "result" : null,
+          "message" : null,
+          "executionTimeMs" : 0,
+          "webAction" : {
+            "actionName" : "open",
+            "object" : {
+              "type" : "raw",
+              "object" : "https://valori-dev.outsystemscloud.com/PreviewInDevices/?IsMobilePreview=True&DeviceName=Smartphone&URL=/ValoriMobilePWA/",
+              "pageScannerQuery" : null,
+              "pageObjectReference" : null
+            },
+            "testdata" : {
+              "data" : "",
+              "type" : "text"
+            },
+            "takeScreenshot" : "0",
+            "screenshot" : null
+          },
+          "apiAction" : null,
+          "pageActionReference" : null,
+          "dataSheetReference" : null,
+          "testStepGroup" : null,
+          "contextId" : null,
+          "hasBreakpoint" : false,
+          "isDisabled" : false
+        }, {
+          "version" : null,
+          "result" : null,
+          "message" : null,
+          "executionTimeMs" : 0,
+          "webAction" : {
+            "actionName" : "windowMaximize",
+            "object" : {
+              "type" : "raw",
+              "object" : "",
+              "pageScannerQuery" : null,
+              "pageObjectReference" : null
+            },
+            "testdata" : {
+              "data" : "",
+              "type" : "text"
+            },
+            "takeScreenshot" : "0",
+            "screenshot" : null
+          },
+          "apiAction" : null,
+          "pageActionReference" : null,
+          "dataSheetReference" : null,
+          "testStepGroup" : null,
+          "contextId" : null,
+          "hasBreakpoint" : false,
+          "isDisabled" : false
+        }, {
+          "version" : null,
+          "result" : null,
+          "message" : null,
+          "executionTimeMs" : 0,
+          "webAction" : {
+            "actionName" : "sendKeys",
+            "object" : {
+              "type" : "pageScanner",
+              "object" : "//input[@id='Input_UsernameVal']",
+              "pageScannerQuery" : "hidden=false",
+              "pageObjectReference" : null
+            },
+            "testdata" : {
+              "data" : "testuser@valori.nl",
+              "type" : "text"
+            },
+            "takeScreenshot" : "0",
+            "screenshot" : null
+          },
+          "apiAction" : null,
+          "pageActionReference" : null,
+          "dataSheetReference" : null,
+          "testStepGroup" : null,
+          "contextId" : null,
+          "hasBreakpoint" : false,
+          "isDisabled" : false
+        }, {
+          "version" : null,
+          "result" : null,
+          "message" : null,
+          "executionTimeMs" : 0,
+          "webAction" : {
+            "actionName" : "sendKeys",
+            "object" : {
+              "type" : "pageScanner",
+              "object" : "//input[@id='Input_PasswordVal']",
+              "pageScannerQuery" : "hidden=false",
+              "pageObjectReference" : null
+            },
+            "testdata" : {
+              "data" : "TestUser1",
+              "type" : "text"
+            },
+            "takeScreenshot" : "0",
+            "screenshot" : null
+          },
+          "apiAction" : null,
+          "pageActionReference" : null,
+          "dataSheetReference" : null,
+          "testStepGroup" : null,
+          "contextId" : null,
+          "hasBreakpoint" : false,
+          "isDisabled" : false
+        }, {
+          "version" : null,
+          "result" : null,
+          "message" : null,
+          "executionTimeMs" : 0,
+          "webAction" : {
+            "actionName" : "click",
+            "object" : {
+              "type" : "raw",
+              "object" : "//button[@type='button']",
+              "pageScannerQuery" : null,
+              "pageObjectReference" : null
+            },
+            "testdata" : {
+              "data" : "",
+              "type" : "text"
+            },
+            "takeScreenshot" : "0",
+            "screenshot" : null
+          },
+          "apiAction" : null,
+          "pageActionReference" : null,
+          "dataSheetReference" : null,
+          "testStepGroup" : null,
+          "contextId" : null,
+          "hasBreakpoint" : false,
+          "isDisabled" : false
+        }, {
+          "version" : null,
+          "result" : null,
+          "message" : null,
+          "executionTimeMs" : 0,
+          "webAction" : {
+            "actionName" : "click",
+            "object" : {
+              "type" : "raw",
+              "object" : "//div[@class='menu-icon']",
+              "pageScannerQuery" : null,
+              "pageObjectReference" : null
+            },
+            "testdata" : {
+              "data" : "",
+              "type" : "text"
+            },
+            "takeScreenshot" : "0",
+            "screenshot" : null
+          },
+          "apiAction" : null,
+          "pageActionReference" : null,
+          "dataSheetReference" : null,
+          "testStepGroup" : null,
+          "contextId" : null,
+          "hasBreakpoint" : false,
+          "isDisabled" : false
+        } ],
+        "groupCondition" : null
+      },
       "contextId" : null,
       "hasBreakpoint" : false,
       "isDisabled" : false
