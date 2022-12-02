@@ -18,6 +18,13 @@
       "value" : "iPhone 12/12 Pro (390x844)"
     } ],
     "name" : "test case 2"
+  }, {
+    "active" : true,
+    "data" : [ {
+      "key" : "DeviceName",
+      "value" : "Samsung Galaxy S21 Ultra (384x854)"
+    } ],
+    "name" : "test case 3"
   } ],
   "type" : "DATA_DRIVEN"
 }

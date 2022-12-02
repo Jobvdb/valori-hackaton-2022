@@ -29,42 +29,15 @@
       "message" : null,
       "executionTimeMs" : 0,
       "webAction" : {
-        "actionName" : "click",
+        "actionName" : "select",
         "object" : {
-          "type" : "raw",
-          "object" : "id=wt5_wtMainContent_wtDevicesComboBox",
-          "pageScannerQuery" : null,
+          "type" : "pageScanner",
+          "object" : "partialID=wtMainContent_wtDevicesComboBox",
+          "pageScannerQuery" : "htmlTags=select?hidden=false",
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "click",
-        "object" : {
-          "type" : "raw",
-          "object" : "innerText=${DeviceName}",
-          "pageScannerQuery" : null,
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "",
+          "data" : "${DeviceName}",
           "type" : "text"
         },
         "takeScreenshot" : "0",
