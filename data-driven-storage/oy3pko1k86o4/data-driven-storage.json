@@ -1,16 +1,23 @@
 {
   "objectType" : "DataDrivenStorage",
   "id" : "oy3pko1k86o4",
-  "title" : "Form",
+  "title" : "DeviceName",
   "description" : null,
   "objectType" : null,
   "variableRunDataList" : [ {
     "active" : true,
     "data" : [ {
-      "key" : "Name",
-      "value" : ""
+      "key" : "DeviceName",
+      "value" : "iPhone 12 Mini (375x812)"
     } ],
     "name" : "test case 1"
+  }, {
+    "active" : true,
+    "data" : [ {
+      "key" : "DeviceName",
+      "value" : "iPhone 12/12 Pro (390x844)"
+    } ],
+    "name" : "test case 2"
   } ],
   "type" : "DATA_DRIVEN"
 }
