@@ -48,7 +48,7 @@
   } ],
   "actionList" : [ {
     "id" : "671cf56a-0686-4af6-af3c-7515df8b6b5e",
-    "title" : "Login user ODCapp",
+    "title" : "Login user Valori ODCApp",
     "variableList" : [ {
       "id" : "8b68ee26-078f-4ccb-b75a-9310cd6e5529",
       "name" : "username"
