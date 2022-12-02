@@ -1,97 +1,30 @@
 {
   "objectType" : "PageObjectModel",
-  "id" : "7k7r532ppg36",
-  "title" : "ODC Create User",
+  "id" : "o94g2ekp7r56",
+  "title" : "ODC Fill user info",
   "description" : null,
   "objectType" : "PageObjectModel",
   "tags" : null,
-  "objectList" : [ {
-    "id" : "8cb2e9d9-4836-4a2a-8fd5-111e5d3945aa",
-    "title" : "SelectRoleDeveloperUser",
-    "testObjects" : [ {
-      "type" : "raw",
-      "object" : "className=dropdown-popup-row",
-      "pageScannerQuery" : null,
-      "pageObjectReference" : null
-    } ],
-    "index" : 3
-  } ],
+  "objectList" : [ ],
   "actionList" : [ {
-    "id" : "234f929a-026a-41db-8316-ad2079cf9cec",
-    "title" : " ODC Create User action",
-    "variableList" : [ {
-      "id" : "a9c0a277-919d-4e7d-b084-c6eb2b1398ae",
-      "name" : "emailnewuser"
-    } ],
+    "id" : "b00822b7-d132-4e77-9bc5-d5e2a12e8133",
+    "title" : "New ODC Fill user info action",
+    "variableList" : [ ],
     "steps" : [ {
       "version" : null,
       "result" : null,
       "message" : null,
       "executionTimeMs" : 0,
       "webAction" : {
-        "actionName" : "click",
+        "actionName" : "type",
         "object" : {
           "type" : "pageScanner",
-          "object" : "partialLinkText=Users & access",
-          "pageScannerQuery" : "basic=clickable?containsText=user?hidden=false",
+          "object" : "data-test-id=Name_Input",
+          "pageScannerQuery" : "basic=writable?hidden=false",
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "click",
-        "object" : {
-          "type" : "pageScanner",
-          "object" : "linkText=Users",
-          "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "click",
-        "object" : {
-          "type" : "pageScanner",
-          "object" : "data-test-id=InviteUsers_Button",
-          "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "",
+          "data" : "${LifetimeURL} ${LifetimeURL}",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -113,12 +46,12 @@
         "actionName" : "type",
         "object" : {
           "type" : "pageScanner",
-          "object" : "data-test-id=invite-email-input",
+          "object" : "data-test-id=Password_Input",
           "pageScannerQuery" : "basic=writable?hidden=false",
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "${emailnewuser}",
+          "data" : "${PasswordOutsystems}",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -137,18 +70,15 @@
       "message" : null,
       "executionTimeMs" : 0,
       "webAction" : {
-        "actionName" : "click",
+        "actionName" : "type",
         "object" : {
           "type" : "pageScanner",
-          "object" : "className=role-dropdown",
-          "pageScannerQuery" : "basic=clickable,writable?hidden=false",
-          "pageObjectReference" : {
-            "pageId" : "7k7r532ppg36",
-            "objectId" : "8cb2e9d9-4836-4a2a-8fd5-111e5d3945aa"
-          }
+          "object" : "data-test-id=PasswordConfirmation_Input",
+          "pageScannerQuery" : "basic=writable?hidden=false",
+          "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "Developer",
+          "data" : "${PasswordOutsystems}",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -167,18 +97,15 @@
       "message" : null,
       "executionTimeMs" : 0,
       "webAction" : {
-        "actionName" : "click",
+        "actionName" : "check",
         "object" : {
-          "type" : "pageObjectReference",
-          "object" : "",
+          "type" : "pageScanner",
+          "object" : "data-test-id=TermsAndPolicy_Checkbox",
           "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : {
-            "pageId" : "7k7r532ppg36",
-            "objectId" : "8cb2e9d9-4836-4a2a-8fd5-111e5d3945aa"
-          }
+          "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "",
+          "data" : "On",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -200,7 +127,7 @@
         "actionName" : "click",
         "object" : {
           "type" : "pageScanner",
-          "object" : "data-test-id=send-invite-button",
+          "object" : "data-test-id=CreateAccount_Button",
           "pageScannerQuery" : "basic=clickable?hidden=false",
           "pageObjectReference" : null
         },
