@@ -268,12 +268,12 @@
         "actionName" : "type",
         "object" : {
           "type" : "raw",
-          "object" : "id=Input_PasswordVal",
+          "object" : "id=Input_UsernameVal",
           "pageScannerQuery" : null,
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "${password}",
+          "data" : "${username}",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -295,12 +295,12 @@
         "actionName" : "type",
         "object" : {
           "type" : "raw",
-          "object" : "id=Input_UsernameVal",
+          "object" : "id=Input_PasswordVal",
           "pageScannerQuery" : null,
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "${username}",
+          "data" : "${password}",
           "type" : "text"
         },
         "takeScreenshot" : "0",

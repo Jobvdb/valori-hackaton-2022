@@ -1,0 +1,70 @@
+{
+  "steps" : null,
+  "testStepGroups" : [ {
+    "groupType" : 0,
+    "groupName" : "Given that I want to log in as a user , When an invalid password is entered",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "gx2kr77o4po3",
+        "pageActionId" : "671cf56a-0686-4af6-af3c-7515df8b6b5e",
+        "variables" : [ {
+          "id" : "8b68ee26-078f-4ccb-b75a-9310cd6e5529",
+          "value" : "Testuser@valori.nl"
+        }, {
+          "id" : "8c343b68-eb73-45c3-80bb-18f086ba1874",
+          "value" : "hoihoi123"
+        } ],
+        "ranSteps" : null
+      },
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  }, {
+    "groupType" : 0,
+    "groupName" : "Then an error message is shown",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "verifyObjectPresent",
+        "object" : {
+          "type" : "raw",
+          "object" : "id=feedbackMessageContainer",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "Invalid username or password.",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  } ],
+  "title" : "PWA - Testcase login with invalid credentials",
+  "description" : null,
+  "id" : "7gw5gyeq3x",
+  "dataDrivenStorageId" : null,
+  "tags" : [ ]
+}
