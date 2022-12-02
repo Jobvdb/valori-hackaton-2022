@@ -8,13 +8,6 @@
     "active" : true,
     "data" : [ {
       "key" : "DeviceName",
-      "value" : "iPhone 12 Mini (375x812)"
-    } ],
-    "name" : "test case 1"
-  }, {
-    "active" : true,
-    "data" : [ {
-      "key" : "DeviceName",
       "value" : "iPhone 12/12 Pro (390x844)"
     } ],
     "name" : "test case 2"
@@ -22,9 +15,44 @@
     "active" : true,
     "data" : [ {
       "key" : "DeviceName",
+      "value" : "Samsung Galaxy Tab S7 (585 x 902)"
+    } ],
+    "name" : "test case 7"
+  }, {
+    "active" : true,
+    "data" : [ {
+      "key" : "DeviceName",
+      "value" : "iPhone 12 Mini (375x812)"
+    } ],
+    "name" : "test case 1"
+  }, {
+    "active" : true,
+    "data" : [ {
+      "key" : "DeviceName",
+      "value" : "Samsung Galaxy S21 (360x800)"
+    } ],
+    "name" : "test case 4"
+  }, {
+    "active" : true,
+    "data" : [ {
+      "key" : "DeviceName",
+      "value" : "Google Pixel 5 (390x844)"
+    } ],
+    "name" : "test case 5"
+  }, {
+    "active" : true,
+    "data" : [ {
+      "key" : "DeviceName",
       "value" : "Samsung Galaxy S21 Ultra (384x854)"
     } ],
     "name" : "test case 3"
+  }, {
+    "active" : true,
+    "data" : [ {
+      "key" : "DeviceName",
+      "value" : "iPad Pro 12.9'' (1024x1366)"
+    } ],
+    "name" : "test case 6"
   } ],
   "type" : "DATA_DRIVEN"
 }
