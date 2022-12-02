@@ -165,7 +165,7 @@
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "27",
+          "data" : "4",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -187,7 +187,7 @@
         "actionName" : "click",
         "object" : {
           "type" : "raw",
-          "object" : "id=btn_plus",
+          "object" : "id=btn_Plus",
           "pageScannerQuery" : null,
           "pageObjectReference" : null
         },
@@ -211,44 +211,15 @@
       "message" : null,
       "executionTimeMs" : 0,
       "webAction" : {
-        "actionName" : "verify",
+        "actionName" : "waitForObjectPresent",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "",
           "pageScannerQuery" : null,
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "170",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    } ],
-    "groupCondition" : null
-  }, {
-    "groupType" : 0,
-    "groupName" : "New descriptive groupAnd I ",
-    "testSteps" : [ {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "",
-        "object" : {
-          "type" : "raw",
-          "object" : "",
-          "pageScannerQuery" : null,
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "p54gxex34qo7",
+            "objectId" : "a941dbb8-1d39-490b-bf83-13ff807c04bb"
+          }
         },
         "testdata" : {
           "data" : "",
@@ -264,10 +235,40 @@
       "contextId" : null,
       "hasBreakpoint" : false,
       "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "verifyText",
+        "object" : {
+          "type" : "pageObjectReference",
+          "object" : "",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : {
+            "pageId" : "p54gxex34qo7",
+            "objectId" : "a941dbb8-1d39-490b-bf83-13ff807c04bb"
+          }
+        },
+        "testdata" : {
+          "data" : "147",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
     } ],
     "groupCondition" : null
   } ],
-  "title" : "PWA - Testcase Calculator",
+  "title" : "PWA - Testcase Calculator (Add)",
   "description" : null,
   "id" : "k28n22vwkp",
   "dataDrivenStorageId" : null,

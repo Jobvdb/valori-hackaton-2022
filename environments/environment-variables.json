@@ -33,11 +33,6 @@
     "id" : "22r6q5qprox6",
     "environmentId" : "yx29kgr1ep26",
     "variableId" : "x7486k6gp419",
-    "value" : "undefined"
-  }, {
-    "id" : "92y75o3r7o9y",
-    "environmentId" : "yx29kgr1ep26",
-    "variableId" : "r58p9e4yer58",
-    "value" : "https://valori-eap-dev.outsystems.app/ValoriNeo/Login"
+    "value" : "https://valori-dev.outsystemscloud.com/LifeTimeSDK/Login.aspx"
   } ]
 }

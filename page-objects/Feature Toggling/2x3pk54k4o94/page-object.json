@@ -16,8 +16,8 @@
       "id" : "966a0ec7-4909-417d-a5ec-acd4c44a2813",
       "name" : "Environment"
     }, {
-      "id" : "1a0bcf61-3ae0-4e5a-9c71-d3e72db30cfd",
-      "name" : "DesiredValue"
+      "id" : "b3f3f710-5cf2-4ac0-815b-f977518be7e7",
+      "name" : "ValueToSet"
     } ],
     "steps" : [ {
       "version" : null,
@@ -34,6 +34,33 @@
         },
         "testdata" : {
           "data" : "${LifetimeURL}",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "windowMaximize",
+        "object" : {
+          "type" : "raw",
+          "object" : "",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -159,65 +186,25 @@
       "result" : null,
       "message" : null,
       "executionTimeMs" : 0,
-      "webAction" : null,
+      "webAction" : {
+        "actionName" : "check",
+        "object" : {
+          "type" : "raw",
+          "object" : ".//tr[./td[@data-header='Name']//span[text()='${FeatureToggleName}']]//td[contains(@data-header,'${Environment}')]//input[@type='checkbox']",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "${ValueToSet}",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
       "apiAction" : null,
       "pageActionReference" : null,
       "dataSheetReference" : null,
-      "testStepGroup" : {
-        "groupType" : 1,
-        "groupName" : "Desired value already filled?",
-        "testSteps" : [ {
-          "version" : null,
-          "result" : null,
-          "message" : null,
-          "executionTimeMs" : 0,
-          "webAction" : {
-            "actionName" : "check",
-            "object" : {
-              "type" : "raw",
-              "object" : ".//tr[./td[@data-header='Name']//span[text()='${FeatureToggleName}']]//td[contains(@data-header,'${environment}')]//input[@type='checkbox']",
-              "pageScannerQuery" : null,
-              "pageObjectReference" : null
-            },
-            "testdata" : {
-              "data" : "On",
-              "type" : "text"
-            },
-            "takeScreenshot" : "0",
-            "screenshot" : null
-          },
-          "apiAction" : null,
-          "pageActionReference" : null,
-          "dataSheetReference" : null,
-          "testStepGroup" : null,
-          "contextId" : null,
-          "hasBreakpoint" : false,
-          "isDisabled" : false
-        } ],
-        "groupCondition" : {
-          "condition" : {
-            "apiAction" : null,
-            "pageActionReference" : null,
-            "webAction" : {
-              "actionName" : "verifyNotValue",
-              "object" : {
-                "type" : "raw",
-                "object" : ".//tr[./td[@data-header='Name']//span[text()='${FeatureToggleName}']]//td[contains(@data-header,'${environment}')]//input[@type='checkbox']"
-              },
-              "testdata" : {
-                "data" : "${DesiredValue}",
-                "type" : "text"
-              },
-              "takeScreenshot" : "0"
-            }
-          },
-          "conditionType" : {
-            "viewValue" : "Test Step",
-            "value" : "teststep"
-          },
-          "maxLoop" : null
-        }
-      },
+      "testStepGroup" : null,
       "contextId" : null,
       "hasBreakpoint" : false,
       "isDisabled" : false
