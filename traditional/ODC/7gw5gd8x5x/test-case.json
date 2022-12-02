@@ -504,7 +504,7 @@
     } ],
     "groupCondition" : null
   } ],
-  "title" : "Login into ValoriApp with wrong credentials and verify logging in ODCPortal",
+  "title" : "Login into ValoriApp with invalid credentials and verify logging in ODCPortal",
   "description" : null,
   "id" : "7gw5gd8x5x",
   "dataDrivenStorageId" : null,
