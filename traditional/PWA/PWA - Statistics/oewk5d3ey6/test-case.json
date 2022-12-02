@@ -51,6 +51,24 @@
       "contextId" : null,
       "hasBreakpoint" : false,
       "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : {
+        "dataSheetReferenceID" : "",
+        "rowSelectionType" : "ROW_BY_NAME",
+        "filterOptions" : { },
+        "usedVariables" : [ ]
+      },
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
     } ],
     "groupCondition" : null
   } ],
