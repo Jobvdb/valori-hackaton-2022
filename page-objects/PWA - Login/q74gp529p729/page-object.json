@@ -3,6 +3,7 @@
   "id" : "q74gp529p729",
   "title" : "Login - PWA",
   "description" : null,
+  "objectType" : "PageObjectModel",
   "tags" : null,
   "objectList" : [ {
     "id" : "b1750b0f-9ebd-40db-89d0-57831f46f55b",
