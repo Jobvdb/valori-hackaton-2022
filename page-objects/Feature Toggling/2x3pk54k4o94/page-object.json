@@ -52,6 +52,33 @@
       "message" : null,
       "executionTimeMs" : 0,
       "webAction" : {
+        "actionName" : "windowMaximize",
+        "object" : {
+          "type" : "raw",
+          "object" : "",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
         "actionName" : "type",
         "object" : {
           "type" : "raw",
@@ -175,12 +202,12 @@
             "actionName" : "check",
             "object" : {
               "type" : "raw",
-              "object" : ".//tr[./td[@data-header='Name']//span[text()='${FeatureToggleName}']]//td[contains(@data-header,'${environment}')]//input[@type='checkbox']",
+              "object" : ".//tr[./td[@data-header='Name']//span[text()='${FeatureToggleName}']]//td[contains(@data-header,'${Environment}')]//input[@type='checkbox']",
               "pageScannerQuery" : null,
               "pageObjectReference" : null
             },
             "testdata" : {
-              "data" : "On",
+              "data" : "${DesiredValue}",
               "type" : "text"
             },
             "takeScreenshot" : "0",
@@ -199,13 +226,13 @@
             "apiAction" : null,
             "pageActionReference" : null,
             "webAction" : {
-              "actionName" : "verifyNotValue",
+              "actionName" : "verifyAttribute",
               "object" : {
                 "type" : "raw",
-                "object" : ".//tr[./td[@data-header='Name']//span[text()='${FeatureToggleName}']]//td[contains(@data-header,'${environment}')]//input[@type='checkbox']"
+                "object" : ".//tr[./td[@data-header='Name']//span[text()='${FeatureToggleName}']]//td[contains(@data-header,'${Environment}')]//input[@type='checkbox']"
               },
               "testdata" : {
-                "data" : "${DesiredValue}",
+                "data" : "value=off",
                 "type" : "text"
               },
               "takeScreenshot" : "0"
