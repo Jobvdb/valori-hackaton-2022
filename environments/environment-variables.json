@@ -20,11 +20,6 @@
     "variableId" : "71xg7ek8517k",
     "value" : "https://valori-eap.outsystems.dev/"
   }, {
-    "id" : "22r6q5qprox6",
-    "environmentId" : "yx29kgr1ep26",
-    "variableId" : "x7486k6gp419",
-    "value" : "undefined"
-  }, {
     "id" : "o975gxggkk53",
     "environmentId" : "yx29kgr1ep26",
     "variableId" : "6egk4p4rrg7e",
@@ -39,5 +34,10 @@
     "environmentId" : "yx29kgr1ep26",
     "variableId" : "pp4xe7ee277y",
     "value" : "TechFirstTestSecond1"
+  }, {
+    "id" : "22r6q5qprox6",
+    "environmentId" : "yx29kgr1ep26",
+    "variableId" : "x7486k6gp419",
+    "value" : "undefined"
   } ]
 }
