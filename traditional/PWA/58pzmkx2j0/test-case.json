@@ -1,0 +1,32 @@
+{
+  "steps" : null,
+  "testStepGroups" : [ {
+    "groupType" : 0,
+    "groupName" : "Open Login page en inloggen",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "gx2kr77o4po3",
+        "pageActionId" : "",
+        "variables" : [ ],
+        "ranSteps" : null
+      },
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  } ],
+  "title" : "PWA",
+  "description" : null,
+  "id" : "58pzmkx2j0",
+  "dataDrivenStorageId" : null,
+  "tags" : [ ]
+}
