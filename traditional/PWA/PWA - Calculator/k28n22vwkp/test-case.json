@@ -65,65 +65,11 @@
       "contextId" : null,
       "hasBreakpoint" : false,
       "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "type",
-        "object" : {
-          "type" : "raw",
-          "object" : "id=Input_Number1",
-          "pageScannerQuery" : null,
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "143",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "type",
-        "object" : {
-          "type" : "raw",
-          "object" : "id=Input_Number2",
-          "pageScannerQuery" : null,
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "27",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
     } ],
     "groupCondition" : null
   }, {
     "groupType" : 0,
-    "groupName" : "And I can add Number 1 to Number 2 to get a value of 170",
+    "groupName" : "And I can add Number 1 to Number 2 to get a value of 147",
     "testSteps" : [ {
       "version" : null,
       "result" : null,
@@ -271,6 +217,6 @@
   "title" : "PWA - Testcase Calculator (Add)",
   "description" : null,
   "id" : "k28n22vwkp",
-  "dataDrivenStorageId" : null,
+  "dataDrivenStorageId" : "oy3pko1k86o4",
   "tags" : [ ]
 }
