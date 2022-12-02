@@ -3,17 +3,18 @@
   "id" : "7k7r532ppg36",
   "title" : "ODC Create User",
   "description" : null,
+  "objectType" : "PageObjectModel",
   "tags" : null,
   "objectList" : [ {
     "id" : "8cb2e9d9-4836-4a2a-8fd5-111e5d3945aa",
-    "title" : "SelectRoleInviteUser",
+    "title" : "SelectRoleDeveloperUser",
     "testObjects" : [ {
-      "type" : "pageScanner",
-      "object" : "innerText=No role",
-      "pageScannerQuery" : "containsText=role?hidden=false",
+      "type" : "raw",
+      "object" : "className=dropdown-popup-row",
+      "pageScannerQuery" : null,
       "pageObjectReference" : null
     } ],
-    "index" : 1
+    "index" : 3
   } ],
   "actionList" : [ {
     "id" : "234f929a-026a-41db-8316-ad2079cf9cec",
@@ -136,15 +137,75 @@
       "message" : null,
       "executionTimeMs" : 0,
       "webAction" : {
-        "actionName" : "select",
+        "actionName" : "click",
         "object" : {
           "type" : "pageScanner",
           "object" : "className=role-dropdown",
+          "pageScannerQuery" : "basic=clickable,writable?hidden=false",
+          "pageObjectReference" : {
+            "pageId" : "7k7r532ppg36",
+            "objectId" : "8cb2e9d9-4836-4a2a-8fd5-111e5d3945aa"
+          }
+        },
+        "testdata" : {
+          "data" : "Developer",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "click",
+        "object" : {
+          "type" : "pageObjectReference",
+          "object" : "",
+          "pageScannerQuery" : "basic=clickable?hidden=false",
+          "pageObjectReference" : {
+            "pageId" : "7k7r532ppg36",
+            "objectId" : "8cb2e9d9-4836-4a2a-8fd5-111e5d3945aa"
+          }
+        },
+        "testdata" : {
+          "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "click",
+        "object" : {
+          "type" : "pageScanner",
+          "object" : "data-test-id=send-invite-button",
           "pageScannerQuery" : "basic=clickable?hidden=false",
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "Developer",
+          "data" : "",
           "type" : "text"
         },
         "takeScreenshot" : "0",
