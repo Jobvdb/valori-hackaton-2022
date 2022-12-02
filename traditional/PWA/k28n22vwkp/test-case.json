@@ -165,7 +165,7 @@
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "27",
+          "data" : "4",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -219,7 +219,7 @@
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "170",
+          "data" : "147",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -236,7 +236,7 @@
     "groupCondition" : null
   }, {
     "groupType" : 0,
-    "groupName" : "New descriptive groupAnd I ",
+    "groupName" : "And I can multiply Number 1 and Number 2 to get a value of 532",
     "testSteps" : [ {
       "version" : null,
       "result" : null,
