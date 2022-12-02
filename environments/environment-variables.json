@@ -1,3 +1,13 @@
 {
-  "environmentVariables" : [ ]
+  "environmentVariables" : [ {
+    "id" : "o975gxk62g76",
+    "environmentId" : "yx29kgr1ep26",
+    "variableId" : "5675x49g287q",
+    "value" : "outsystems@valori.nl"
+  }, {
+    "id" : "g7g5xy3o31qx",
+    "environmentId" : "yx29kgr1ep26",
+    "variableId" : "pp4xe7y8ypxy",
+    "value" : "TechFirstTestSecond"
+  } ]
 }

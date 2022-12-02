@@ -73,6 +73,39 @@
         }, {
           "id" : "d7a9df71-ba43-44b7-9af9-adc392eb9025",
           "value" : "3"
+        }, {
+          "id" : "4671be59-0ff7-4e29-ac7f-00a8a90f9561",
+          "value" : "+"
+        } ],
+        "ranSteps" : null
+      },
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "p54gxegpgg47",
+        "pageActionId" : "cb184cea-768c-431c-9129-52f9b5d16e52",
+        "variables" : [ {
+          "id" : "61c91ba4-3838-47af-bf53-3882d0933934",
+          "value" : "1"
+        }, {
+          "id" : "64c61049-2017-41d8-b18b-3a867b91d2ec",
+          "value" : "2"
+        }, {
+          "id" : "d7a9df71-ba43-44b7-9af9-adc392eb9025",
+          "value" : "2"
+        }, {
+          "id" : "4671be59-0ff7-4e29-ac7f-00a8a90f9561",
+          "value" : "X"
         } ],
         "ranSteps" : null
       },
