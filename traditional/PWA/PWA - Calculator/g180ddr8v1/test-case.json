@@ -1,177 +1,222 @@
 {
-  "objectType" : "PageObjectModel",
-  "id" : "o94g2ekp7r56",
-  "title" : "ODC Fill user info",
+  "steps" : null,
+  "testStepGroups" : [ {
+    "groupType" : 0,
+    "groupName" : "Given I am logged in as a user",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "q74gp529p729",
+        "pageActionId" : "fa467796-6767-413d-8cda-8c1c397e2d16",
+        "variables" : [ {
+          "id" : "8b68ee26-078f-4ccb-b75a-9310cd6e5529",
+          "value" : "testuser@valori.nl"
+        }, {
+          "id" : "8c343b68-eb73-45c3-80bb-18f086ba1874",
+          "value" : "TestUser1"
+        }, {
+          "id" : "db827687-8aad-4984-8376-1697e79984cd",
+          "value" : "TestUser@valori.nl"
+        }, {
+          "id" : "6de86eaa-8f40-4c59-a161-9202bcd9bcb5",
+          "value" : "TestUser1"
+        } ],
+        "ranSteps" : null
+      },
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  }, {
+    "groupType" : 0,
+    "groupName" : "Then I can open the Calculator",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "click",
+        "object" : {
+          "type" : "raw",
+          "object" : "linkText=Go to Calculator",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  }, {
+    "groupType" : 0,
+    "groupName" : "And I can add Number 1 to Number 2 to get a value of 147",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "type",
+        "object" : {
+          "type" : "raw",
+          "object" : "id=Input_Number1",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "143",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "type",
+        "object" : {
+          "type" : "raw",
+          "object" : "id=Input_Number2",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "4",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "click",
+        "object" : {
+          "type" : "raw",
+          "object" : "id=btn_Plus",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "waitForObjectPresent",
+        "object" : {
+          "type" : "pageObjectReference",
+          "object" : "",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : {
+            "pageId" : "p54gxex34qo7",
+            "objectId" : "a941dbb8-1d39-490b-bf83-13ff807c04bb"
+          }
+        },
+        "testdata" : {
+          "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "verifyText",
+        "object" : {
+          "type" : "pageObjectReference",
+          "object" : "",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : {
+            "pageId" : "p54gxex34qo7",
+            "objectId" : "a941dbb8-1d39-490b-bf83-13ff807c04bb"
+          }
+        },
+        "testdata" : {
+          "data" : "146",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  } ],
+  "title" : "PWA - Testcase Calculator (Add) - incorrect end result",
   "description" : null,
-  "objectType" : "PageObjectModel",
-  "tags" : null,
-  "objectList" : [ ],
-  "actionList" : [ {
-    "id" : "b00822b7-d132-4e77-9bc5-d5e2a12e8133",
-    "title" : "New ODC Fill user info action and log off",
-    "variableList" : [ ],
-    "steps" : [ {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "type",
-        "object" : {
-          "type" : "pageScanner",
-          "object" : "data-test-id=Name_Input",
-          "pageScannerQuery" : "basic=writable?hidden=false",
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "${LifetimeURL} ${LifetimeURL}",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "type",
-        "object" : {
-          "type" : "pageScanner",
-          "object" : "data-test-id=Password_Input",
-          "pageScannerQuery" : "basic=writable?hidden=false",
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "${PasswordOutsystems}",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "type",
-        "object" : {
-          "type" : "pageScanner",
-          "object" : "data-test-id=PasswordConfirmation_Input",
-          "pageScannerQuery" : "basic=writable?hidden=false",
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "${PasswordOutsystems}",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "check",
-        "object" : {
-          "type" : "pageScanner",
-          "object" : "data-test-id=TermsAndPolicy_Checkbox",
-          "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "On",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "click",
-        "object" : {
-          "type" : "pageScanner",
-          "object" : "data-test-id=CreateAccount_Button",
-          "pageScannerQuery" : "basic=clickable?hidden=false",
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "click",
-        "object" : {
-          "type" : "pageScanner",
-          "object" : "innerText=Log out",
-          "pageScannerQuery" : "basic=clickable?hidden=true",
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    } ]
-  } ]
+  "id" : "g180ddr8v1",
+  "dataDrivenStorageId" : "oy3pko1k86o4",
+  "tags" : [ ]
 }

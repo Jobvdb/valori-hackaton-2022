@@ -1,0 +1,14 @@
+{
+  "apiType" : null,
+  "description" : null,
+  "definitionUrl" : null,
+  "schemes" : [ "https" ],
+  "activeScheme" : "https",
+  "baseUrl" : "valori-dev.outsystemscloud.com",
+  "basePath" : "/FeatureToggle_Mng",
+  "authentication" : null,
+  "tags" : [ ],
+  "id" : "5o1379r31e74",
+  "title" : "Feature toggles",
+  "objectType" : null
+}

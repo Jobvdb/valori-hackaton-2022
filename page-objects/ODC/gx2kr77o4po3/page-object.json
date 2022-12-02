@@ -16,16 +16,6 @@
     } ],
     "index" : 1
   }, {
-    "id" : "978e4e75-0f10-4c84-91cf-c6eb252a4086",
-    "title" : "New Login page object",
-    "testObjects" : [ {
-      "type" : "raw",
-      "object" : "",
-      "pageScannerQuery" : null,
-      "pageObjectReference" : null
-    } ],
-    "index" : 1
-  }, {
     "id" : "ba71cd04-f237-46cd-97d2-b8d9d64f1d0c",
     "title" : "Password Input",
     "testObjects" : [ {
@@ -118,10 +108,13 @@
       "webAction" : {
         "actionName" : "type",
         "object" : {
-          "type" : "raw",
-          "object" : "id=Input_PasswordVal",
+          "type" : "pageObjectReference",
+          "object" : "",
           "pageScannerQuery" : null,
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "gx2kr77o4po3",
+            "objectId" : "5b87f48d-97d3-4819-9217-6d49b6896f85"
+          }
         },
         "testdata" : {
           "data" : "${password}",
@@ -145,10 +138,13 @@
       "webAction" : {
         "actionName" : "type",
         "object" : {
-          "type" : "raw",
-          "object" : "id=Input_UsernameVal",
+          "type" : "pageObjectReference",
+          "object" : "",
           "pageScannerQuery" : null,
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "gx2kr77o4po3",
+            "objectId" : "ba71cd04-f237-46cd-97d2-b8d9d64f1d0c"
+          }
         },
         "testdata" : {
           "data" : "${username}",
