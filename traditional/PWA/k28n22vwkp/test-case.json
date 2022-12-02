@@ -187,7 +187,7 @@
         "actionName" : "click",
         "object" : {
           "type" : "raw",
-          "object" : "id=btn_plus",
+          "object" : "id=btn_Plus",
           "pageScannerQuery" : null,
           "pageObjectReference" : null
         },
@@ -211,12 +211,45 @@
       "message" : null,
       "executionTimeMs" : 0,
       "webAction" : {
-        "actionName" : "verify",
+        "actionName" : "waitForObjectPresent",
         "object" : {
-          "type" : "raw",
+          "type" : "pageObjectReference",
           "object" : "",
           "pageScannerQuery" : null,
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "p54gxex34qo7",
+            "objectId" : "a941dbb8-1d39-490b-bf83-13ff807c04bb"
+          }
+        },
+        "testdata" : {
+          "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "verifyText",
+        "object" : {
+          "type" : "pageObjectReference",
+          "object" : "",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : {
+            "pageId" : "p54gxex34qo7",
+            "objectId" : "a941dbb8-1d39-490b-bf83-13ff807c04bb"
+          }
         },
         "testdata" : {
           "data" : "147",
@@ -236,22 +269,136 @@
     "groupCondition" : null
   }, {
     "groupType" : 0,
-    "groupName" : "And I can multiply Number 1 and Number 2 to get a value of 532",
+    "groupName" : "And I can multiply Number 1 to Number 2 to get a value of 572",
     "testSteps" : [ {
       "version" : null,
       "result" : null,
       "message" : null,
       "executionTimeMs" : 0,
       "webAction" : {
-        "actionName" : "",
+        "actionName" : "type",
         "object" : {
           "type" : "raw",
-          "object" : "",
+          "object" : "id=Input_Number1",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "143",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "type",
+        "object" : {
+          "type" : "raw",
+          "object" : "id=Input_Number2",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "4",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "click",
+        "object" : {
+          "type" : "raw",
+          "object" : "id=btn_Keer",
           "pageScannerQuery" : null,
           "pageObjectReference" : null
         },
         "testdata" : {
           "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "waitForObjectPresent",
+        "object" : {
+          "type" : "pageObjectReference",
+          "object" : "",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : {
+            "pageId" : "p54gxex34qo7",
+            "objectId" : "a941dbb8-1d39-490b-bf83-13ff807c04bb"
+          }
+        },
+        "testdata" : {
+          "data" : "",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "verifyText",
+        "object" : {
+          "type" : "pageObjectReference",
+          "object" : "Feed",
+          "pageScannerQuery" : null,
+          "pageObjectReference" : {
+            "pageId" : "p54gxex34qo7",
+            "objectId" : "a941dbb8-1d39-490b-bf83-13ff807c04bb"
+          }
+        },
+        "testdata" : {
+          "data" : "572",
           "type" : "text"
         },
         "takeScreenshot" : "0",
