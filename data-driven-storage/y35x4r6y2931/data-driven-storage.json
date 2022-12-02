@@ -1,0 +1,51 @@
+{
+  "objectType" : "DataDrivenStorage",
+  "id" : "y35x4r6y2931",
+  "title" : "Devices",
+  "description" : null,
+  "objectType" : null,
+  "variableRunDataList" : [ {
+    "active" : true,
+    "data" : [ {
+      "key" : "DeviceTechnicalName",
+      "value" : "iPhone 12 Mini (375x812)"
+    } ],
+    "name" : "Iphone 12 mini"
+  }, {
+    "active" : true,
+    "data" : [ {
+      "key" : "DeviceTechnicalName",
+      "value" : "iPhone 12/12 Pro (390x814)"
+    } ],
+    "name" : "Iphone 12/12 Pro"
+  }, {
+    "active" : true,
+    "data" : [ {
+      "key" : "DeviceTechnicalName",
+      "value" : "Samsung Galaxy S21 (360x800)"
+    } ],
+    "name" : "Samsung Galaxy S21"
+  }, {
+    "active" : true,
+    "data" : [ {
+      "key" : "DeviceTechnicalName",
+      "value" : "Samsung Galaxy S21 Ultra (384x854)"
+    } ],
+    "name" : "Samsung Galaxy S21"
+  }, {
+    "active" : true,
+    "data" : [ {
+      "key" : "DeviceTechnicalName",
+      "value" : "Google Pixel 5 (390x844)"
+    } ],
+    "name" : "Google Pixel 5"
+  }, {
+    "active" : true,
+    "data" : [ {
+      "key" : "DeviceTechnicalName",
+      "value" : "Samsung Galaxy Tab S7 (585 x 902)"
+    } ],
+    "name" : "Samsung Galaxy Tab S7"
+  } ],
+  "type" : "DATA_DRIVEN"
+}
