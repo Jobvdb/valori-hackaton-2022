@@ -160,6 +160,33 @@
           "contextId" : null,
           "hasBreakpoint" : false,
           "isDisabled" : false
+        }, {
+          "version" : null,
+          "result" : null,
+          "message" : null,
+          "executionTimeMs" : 0,
+          "webAction" : {
+            "actionName" : "click",
+            "object" : {
+              "type" : "pageScanner",
+              "object" : "innerText=Save",
+              "pageScannerQuery" : "basic=clickable?hidden=false",
+              "pageObjectReference" : null
+            },
+            "testdata" : {
+              "data" : "",
+              "type" : "text"
+            },
+            "takeScreenshot" : "0",
+            "screenshot" : null
+          },
+          "apiAction" : null,
+          "pageActionReference" : null,
+          "dataSheetReference" : null,
+          "testStepGroup" : null,
+          "contextId" : null,
+          "hasBreakpoint" : false,
+          "isDisabled" : false
         } ],
         "groupCondition" : null
       },

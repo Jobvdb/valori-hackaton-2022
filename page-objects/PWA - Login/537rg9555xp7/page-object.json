@@ -1,0 +1,55 @@
+{
+  "objectType" : "PageObjectModel",
+  "id" : "537rg9555xp7",
+  "title" : "Select Devices",
+  "description" : null,
+  "objectType" : "PageObjectModel",
+  "tags" : null,
+  "objectList" : [ {
+    "id" : "44c0b4e3-d945-444f-88b9-565612b99a75",
+    "title" : "New Select Devices object",
+    "testObjects" : [ {
+      "type" : "raw",
+      "object" : "",
+      "pageScannerQuery" : null,
+      "pageObjectReference" : null
+    } ],
+    "index" : 1
+  } ],
+  "actionList" : [ {
+    "id" : "771b96da-0749-483f-ac2e-a918a0dcff0c",
+    "title" : "New Select Devices action",
+    "variableList" : [ {
+      "id" : "145e9c5a-c03b-4d3b-8784-cb37c9f0e6ac",
+      "name" : "DeviceName"
+    } ],
+    "steps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : {
+        "actionName" : "select",
+        "object" : {
+          "type" : "pageScanner",
+          "object" : "partialID=wtMainContent_wtDevicesComboBox",
+          "pageScannerQuery" : "htmlTags=select?hidden=false",
+          "pageObjectReference" : null
+        },
+        "testdata" : {
+          "data" : "${DeviceName}",
+          "type" : "text"
+        },
+        "takeScreenshot" : "0",
+        "screenshot" : null
+      },
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ]
+  } ]
+}

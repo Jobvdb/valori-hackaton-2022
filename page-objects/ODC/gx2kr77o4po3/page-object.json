@@ -1,49 +1,59 @@
 {
   "objectType" : "PageObjectModel",
-  "id" : "q74gp529p729",
-  "title" : "Login - PWA",
+  "id" : "gx2kr77o4po3",
+  "title" : "Login page Valori App",
   "description" : null,
   "objectType" : "PageObjectModel",
   "tags" : null,
   "objectList" : [ {
-    "id" : "b1750b0f-9ebd-40db-89d0-57831f46f55b",
+    "id" : "5b87f48d-97d3-4819-9217-6d49b6896f85",
     "title" : "UserName Input",
     "testObjects" : [ {
       "type" : "raw",
-      "object" : "data-test-id=Email_Input",
+      "object" : "id=Input_Username",
       "pageScannerQuery" : null,
       "pageObjectReference" : null
     } ],
     "index" : 1
   }, {
-    "id" : "6f54d912-8db9-4f2b-9293-0e912a79786c",
+    "id" : "978e4e75-0f10-4c84-91cf-c6eb252a4086",
+    "title" : "New Login page object",
+    "testObjects" : [ {
+      "type" : "raw",
+      "object" : "",
+      "pageScannerQuery" : null,
+      "pageObjectReference" : null
+    } ],
+    "index" : 1
+  }, {
+    "id" : "ba71cd04-f237-46cd-97d2-b8d9d64f1d0c",
     "title" : "Password Input",
     "testObjects" : [ {
       "type" : "raw",
-      "object" : "data-test-id=Password_Input",
+      "object" : "id=Input_Password",
       "pageScannerQuery" : null,
       "pageObjectReference" : null
     } ],
     "index" : 1
   }, {
-    "id" : "a90b3755-7c53-4d85-b8f2-5949b3f1ead1",
+    "id" : "d4c260f3-ddd8-4a46-a36d-12aacc325241",
     "title" : "Login btn",
     "testObjects" : [ {
       "type" : "raw",
-      "object" : "data-test-id=Login_Button",
+      "object" : "className=btn btn-primary OSFillParent",
       "pageScannerQuery" : null,
       "pageObjectReference" : null
     } ],
     "index" : 1
   } ],
   "actionList" : [ {
-    "id" : "fa467796-6767-413d-8cda-8c1c397e2d16",
-    "title" : "Login user PWA",
+    "id" : "671cf56a-0686-4af6-af3c-7515df8b6b5e",
+    "title" : "Login user Valori ODCApp",
     "variableList" : [ {
-      "id" : "db827687-8aad-4984-8376-1697e79984cd",
+      "id" : "8b68ee26-078f-4ccb-b75a-9310cd6e5529",
       "name" : "username"
     }, {
-      "id" : "6de86eaa-8f40-4c59-a161-9202bcd9bcb5",
+      "id" : "8c343b68-eb73-45c3-80bb-18f086ba1874",
       "name" : "password"
     } ],
     "steps" : [ {
@@ -60,7 +70,7 @@
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "https://valori-dev.outsystemscloud.com/PreviewInDevices/?IsMobilePreview=True&DeviceName=Smartphone&URL=/ValoriMobilePWA/",
+          "data" : "${ODCAppURL}",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -105,37 +115,16 @@
       "result" : null,
       "message" : null,
       "executionTimeMs" : 0,
-      "webAction" : null,
-      "apiAction" : null,
-      "pageActionReference" : {
-        "pageObjectModelId" : "537rg9555xp7",
-        "pageActionId" : "771b96da-0749-483f-ac2e-a918a0dcff0c",
-        "variables" : [ {
-          "id" : "145e9c5a-c03b-4d3b-8784-cb37c9f0e6ac",
-          "value" : "${DeviceName}"
-        } ],
-        "ranSteps" : null
-      },
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
       "webAction" : {
         "actionName" : "type",
         "object" : {
           "type" : "raw",
-          "object" : "id=Input_UsernameVal",
+          "object" : "id=Input_PasswordVal",
           "pageScannerQuery" : null,
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "TestUser@valori.nl",
+          "data" : "${password}",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -157,12 +146,12 @@
         "actionName" : "type",
         "object" : {
           "type" : "raw",
-          "object" : "id=Input_PasswordVal",
+          "object" : "id=Input_UsernameVal",
           "pageScannerQuery" : null,
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "TestUser1",
+          "data" : "${username}",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -183,10 +172,13 @@
       "webAction" : {
         "actionName" : "click",
         "object" : {
-          "type" : "raw",
-          "object" : "id=b6-Button",
+          "type" : "pageObjectReference",
+          "object" : "",
           "pageScannerQuery" : null,
-          "pageObjectReference" : null
+          "pageObjectReference" : {
+            "pageId" : "gx2kr77o4po3",
+            "objectId" : "d4c260f3-ddd8-4a46-a36d-12aacc325241"
+          }
         },
         "testdata" : {
           "data" : "",
