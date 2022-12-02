@@ -105,6 +105,27 @@
       "result" : null,
       "message" : null,
       "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "537rg9555xp7",
+        "pageActionId" : "771b96da-0749-483f-ac2e-a918a0dcff0c",
+        "variables" : [ {
+          "id" : "145e9c5a-c03b-4d3b-8784-cb37c9f0e6ac",
+          "value" : "${DeviceName}"
+        } ],
+        "ranSteps" : null
+      },
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    }, {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
       "webAction" : {
         "actionName" : "type",
         "object" : {

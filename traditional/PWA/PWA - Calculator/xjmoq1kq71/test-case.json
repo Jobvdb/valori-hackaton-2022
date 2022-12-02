@@ -11,8 +11,8 @@
       "webAction" : null,
       "apiAction" : null,
       "pageActionReference" : {
-        "pageObjectModelId" : "",
-        "pageActionId" : "",
+        "pageObjectModelId" : "q74gp529p729",
+        "pageActionId" : "fa467796-6767-413d-8cda-8c1c397e2d16",
         "variables" : [ {
           "id" : "8b68ee26-078f-4ccb-b75a-9310cd6e5529",
           "value" : "testuser@valori.nl"
@@ -107,152 +107,6 @@
         },
         "testdata" : {
           "data" : "27",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    } ],
-    "groupCondition" : null
-  }, {
-    "groupType" : 0,
-    "groupName" : "And I can add Number 1 to Number 2 to get a value of 170",
-    "testSteps" : [ {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "type",
-        "object" : {
-          "type" : "raw",
-          "object" : "id=Input_Number1",
-          "pageScannerQuery" : null,
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "143",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "type",
-        "object" : {
-          "type" : "raw",
-          "object" : "id=Input_Number2",
-          "pageScannerQuery" : null,
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "4",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "click",
-        "object" : {
-          "type" : "raw",
-          "object" : "id=btn_Plus",
-          "pageScannerQuery" : null,
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "waitForObjectPresent",
-        "object" : {
-          "type" : "pageObjectReference",
-          "object" : "",
-          "pageScannerQuery" : null,
-          "pageObjectReference" : {
-            "pageId" : "p54gxex34qo7",
-            "objectId" : "a941dbb8-1d39-490b-bf83-13ff807c04bb"
-          }
-        },
-        "testdata" : {
-          "data" : "",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
-      "apiAction" : null,
-      "pageActionReference" : null,
-      "dataSheetReference" : null,
-      "testStepGroup" : null,
-      "contextId" : null,
-      "hasBreakpoint" : false,
-      "isDisabled" : false
-    }, {
-      "version" : null,
-      "result" : null,
-      "message" : null,
-      "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "verifyText",
-        "object" : {
-          "type" : "pageObjectReference",
-          "object" : "",
-          "pageScannerQuery" : null,
-          "pageObjectReference" : {
-            "pageId" : "p54gxex34qo7",
-            "objectId" : "a941dbb8-1d39-490b-bf83-13ff807c04bb"
-          }
-        },
-        "testdata" : {
-          "data" : "147",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -414,9 +268,9 @@
     } ],
     "groupCondition" : null
   } ],
-  "title" : "PWA - Testcase Combobox change Device",
+  "title" : "PWA - Testcase Calculator (Multiply)",
   "description" : null,
-  "id" : "mdgp3g2nr8",
+  "id" : "xjmoq1kq71",
   "dataDrivenStorageId" : null,
   "tags" : [ ]
 }

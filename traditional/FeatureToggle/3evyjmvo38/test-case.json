@@ -1,0 +1,41 @@
+{
+  "steps" : null,
+  "testStepGroups" : [ {
+    "groupType" : 0,
+    "groupName" : "Verify and Set Feature Toggle",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "2x3pk54k4o94",
+        "pageActionId" : "caf470e1-32ba-4ea9-a415-315186132f42",
+        "variables" : [ {
+          "id" : "9502ee0f-0bb2-4d8b-a696-8d37089d8ee9",
+          "value" : "Test Sandbox FT"
+        }, {
+          "id" : "966a0ec7-4909-417d-a5ec-acd4c44a2813",
+          "value" : "Development"
+        }, {
+          "id" : "1a0bcf61-3ae0-4e5a-9c71-d3e72db30cfd",
+          "value" : "on"
+        } ],
+        "ranSteps" : null
+      },
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  } ],
+  "title" : "Check logic behind toggle",
+  "description" : null,
+  "id" : "3evyjmvo38",
+  "dataDrivenStorageId" : null,
+  "tags" : [ ]
+}

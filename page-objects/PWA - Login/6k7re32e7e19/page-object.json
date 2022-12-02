@@ -1,0 +1,30 @@
+{
+  "objectType" : "PageObjectModel",
+  "id" : "6k7re32e7e19",
+  "title" : "dropdown device",
+  "description" : null,
+  "objectType" : "PageObjectModel",
+  "tags" : null,
+  "objectList" : [ {
+    "id" : "bd138aa1-96e2-4f77-ac76-1bf855995733",
+    "title" : "New dropdown device object",
+    "testObjects" : [ {
+      "type" : "raw",
+      "object" : "",
+      "pageScannerQuery" : null,
+      "pageObjectReference" : null
+    }, {
+      "type" : "raw",
+      "object" : "",
+      "pageScannerQuery" : null,
+      "pageObjectReference" : null
+    } ],
+    "index" : 1
+  } ],
+  "actionList" : [ {
+    "id" : "b452a613-ad1e-4d93-9bc6-139c2f250383",
+    "title" : "New dropdown device action",
+    "variableList" : [ ],
+    "steps" : [ ]
+  } ]
+}
