@@ -1,6 +1,35 @@
 {
   "steps" : null,
-  "testStepGroups" : [ ],
+  "testStepGroups" : [ {
+    "groupType" : 0,
+    "groupName" : "Login as Outsystems user to ODCPortal",
+    "testSteps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "39kpro72pgp2",
+        "pageActionId" : "30fa96a2-677e-4c50-b2d1-754a93acfd24",
+        "variables" : [ {
+          "id" : "873bcc72-716d-42ce-a8c1-0e67ff4c778d",
+          "value" : "${UsernameOutsystems}"
+        }, {
+          "id" : "4c077e78-54c6-442a-8389-fe0afc2eaa7c",
+          "value" : "${PasswordOutsystems}"
+        } ],
+        "ranSteps" : null
+      },
+      "dataSheetReference" : null,
+      "testStepGroup" : null,
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ],
+    "groupCondition" : null
+  } ],
   "title" : "Login into ODC Portal",
   "description" : null,
   "id" : "r3ox3xzrjv",
