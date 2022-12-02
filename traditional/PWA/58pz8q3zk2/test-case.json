@@ -11,13 +11,13 @@
       "webAction" : null,
       "apiAction" : null,
       "pageActionReference" : {
-        "pageObjectModelId" : "gx2kr77o4po3",
-        "pageActionId" : "671cf56a-0686-4af6-af3c-7515df8b6b5e",
+        "pageObjectModelId" : "q74gp529p729",
+        "pageActionId" : "fa467796-6767-413d-8cda-8c1c397e2d16",
         "variables" : [ {
-          "id" : "8b68ee26-078f-4ccb-b75a-9310cd6e5529",
-          "value" : "testuser@valori.nl"
+          "id" : "db827687-8aad-4984-8376-1697e79984cd",
+          "value" : "TestUser@valori.nl"
         }, {
-          "id" : "8c343b68-eb73-45c3-80bb-18f086ba1874",
+          "id" : "6de86eaa-8f40-4c59-a161-9202bcd9bcb5",
           "value" : "TestUser1"
         } ],
         "ranSteps" : null
@@ -64,23 +64,17 @@
       "result" : null,
       "message" : null,
       "executionTimeMs" : 0,
-      "webAction" : {
-        "actionName" : "",
-        "object" : {
-          "type" : "raw",
-          "object" : "",
-          "pageScannerQuery" : null,
-          "pageObjectReference" : null
-        },
-        "testdata" : {
-          "data" : "",
-          "type" : "text"
-        },
-        "takeScreenshot" : "0",
-        "screenshot" : null
-      },
+      "webAction" : null,
       "apiAction" : null,
-      "pageActionReference" : null,
+      "pageActionReference" : {
+        "pageObjectModelId" : "12pg3xkeg375",
+        "pageActionId" : "1bea3398-49ad-4d5f-ae9e-353289346777",
+        "variables" : [ {
+          "id" : "f4677823-47dc-41d5-ac30-6d1f9385562e",
+          "value" : "${randomText()}"
+        } ],
+        "ranSteps" : null
+      },
       "dataSheetReference" : null,
       "testStepGroup" : null,
       "contextId" : null,
@@ -90,22 +84,22 @@
     "groupCondition" : null
   }, {
     "groupType" : 0,
-    "groupName" : "Then I expect ",
+    "groupName" : "Then I expect the form to be saved",
     "testSteps" : [ {
       "version" : null,
       "result" : null,
       "message" : null,
       "executionTimeMs" : 0,
       "webAction" : {
-        "actionName" : "",
+        "actionName" : "verifyText",
         "object" : {
           "type" : "raw",
-          "object" : "",
+          "object" : "innerText=${Name}",
           "pageScannerQuery" : null,
           "pageObjectReference" : null
         },
         "testdata" : {
-          "data" : "",
+          "data" : "${Name}",
           "type" : "text"
         },
         "takeScreenshot" : "0",
@@ -124,6 +118,6 @@
   "title" : "PWA - Fill in form (happy flow)",
   "description" : null,
   "id" : "58pz8q3zk2",
-  "dataDrivenStorageId" : null,
+  "dataDrivenStorageId" : "oy3pko1k86o4",
   "tags" : [ ]
 }
