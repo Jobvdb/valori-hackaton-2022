@@ -2,7 +2,7 @@
   "steps" : null,
   "testStepGroups" : [ {
     "groupType" : 0,
-    "groupName" : "Given user is logged in as outsystems@valori.nl",
+    "groupName" : "Verify and Set Feature Toggle",
     "testSteps" : [ {
       "version" : null,
       "result" : null,
@@ -11,14 +11,17 @@
       "webAction" : null,
       "apiAction" : null,
       "pageActionReference" : {
-        "pageObjectModelId" : "gx2kr77o4po3",
-        "pageActionId" : "671cf56a-0686-4af6-af3c-7515df8b6b5e",
+        "pageObjectModelId" : "2x3pk54k4o94",
+        "pageActionId" : "caf470e1-32ba-4ea9-a415-315186132f42",
         "variables" : [ {
-          "id" : "8b68ee26-078f-4ccb-b75a-9310cd6e5529",
-          "value" : "${UsernameOutsystems}"
+          "id" : "9502ee0f-0bb2-4d8b-a696-8d37089d8ee9",
+          "value" : "Test Sandbox FT"
         }, {
-          "id" : "8c343b68-eb73-45c3-80bb-18f086ba1874",
-          "value" : "${PasswordOutsystems}"
+          "id" : "966a0ec7-4909-417d-a5ec-acd4c44a2813",
+          "value" : "Development"
+        }, {
+          "id" : "1a0bcf61-3ae0-4e5a-9c71-d3e72db30cfd",
+          "value" : "on"
         } ],
         "ranSteps" : null
       },
@@ -30,9 +33,9 @@
     } ],
     "groupCondition" : null
   } ],
-  "title" : "Login outsystems@valori.nl user",
+  "title" : "Check logic behind toggle",
   "description" : null,
-  "id" : "vxmgoq77jv",
+  "id" : "3evyjmvo38",
   "dataDrivenStorageId" : null,
   "tags" : [ ]
 }

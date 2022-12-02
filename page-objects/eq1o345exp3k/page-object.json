@@ -1,0 +1,57 @@
+{
+  "objectType" : "PageObjectModel",
+  "id" : "eq1o345exp3k",
+  "title" : "Open Calculator",
+  "description" : null,
+  "objectType" : "PageObjectModel",
+  "tags" : null,
+  "objectList" : [ ],
+  "actionList" : [ {
+    "id" : "fa0fed25-d5c2-4a09-ac99-31b4a6ca3a4d",
+    "title" : "Given I am logged in as a user and Open Calculator",
+    "variableList" : [ ],
+    "steps" : [ {
+      "version" : null,
+      "result" : null,
+      "message" : null,
+      "executionTimeMs" : 0,
+      "webAction" : null,
+      "apiAction" : null,
+      "pageActionReference" : null,
+      "dataSheetReference" : null,
+      "testStepGroup" : {
+        "groupType" : 0,
+        "groupName" : "Given I am logged in as a user",
+        "testSteps" : [ {
+          "version" : null,
+          "result" : null,
+          "message" : null,
+          "executionTimeMs" : 0,
+          "webAction" : null,
+          "apiAction" : null,
+          "pageActionReference" : {
+            "pageObjectModelId" : "gx2kr77o4po3",
+            "pageActionId" : "671cf56a-0686-4af6-af3c-7515df8b6b5e",
+            "variables" : [ {
+              "id" : "8b68ee26-078f-4ccb-b75a-9310cd6e5529",
+              "value" : "testuser@valori.nl"
+            }, {
+              "id" : "8c343b68-eb73-45c3-80bb-18f086ba1874",
+              "value" : "TestUser1"
+            } ],
+            "ranSteps" : null
+          },
+          "dataSheetReference" : null,
+          "testStepGroup" : null,
+          "contextId" : null,
+          "hasBreakpoint" : false,
+          "isDisabled" : false
+        } ],
+        "groupCondition" : null
+      },
+      "contextId" : null,
+      "hasBreakpoint" : false,
+      "isDisabled" : false
+    } ]
+  } ]
+}

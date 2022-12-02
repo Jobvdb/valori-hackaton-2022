@@ -1,3 +1,43 @@
 {
-  "environmentVariables" : [ ]
+  "environmentVariables" : [ {
+    "id" : "o975gxk62g76",
+    "environmentId" : "yx29kgr1ep26",
+    "variableId" : "5675x49g287q",
+    "value" : "outsystems@valori.nl"
+  }, {
+    "id" : "92y75o3r7o9y",
+    "environmentId" : "yx29kgr1ep26",
+    "variableId" : "r58p9e4yer58",
+    "value" : "https://valori-eap-dev.outsystems.app/ValoriNeo/Login"
+  }, {
+    "id" : "g7g5xy3o31qx",
+    "environmentId" : "yx29kgr1ep26",
+    "variableId" : "pp4xe7y8ypxy",
+    "value" : "TechFirstTestSecond1"
+  }, {
+    "id" : "391yxg5o33xo",
+    "environmentId" : "yx29kgr1ep26",
+    "variableId" : "71xg7ek8517k",
+    "value" : "https://valori-eap.outsystems.dev/"
+  }, {
+    "id" : "o975gxggkk53",
+    "environmentId" : "yx29kgr1ep26",
+    "variableId" : "6egk4p4rrg7e",
+    "value" : "https://valori-dev.outsystemscloud.com/FeatureToggleManagement/"
+  }, {
+    "id" : "rk23pxpppyo2",
+    "environmentId" : "yx29kgr1ep26",
+    "variableId" : "epk29e994rg4",
+    "value" : "jobvandenberg@valori.nl"
+  }, {
+    "id" : "7x7q1p1exeoy",
+    "environmentId" : "yx29kgr1ep26",
+    "variableId" : "pp4xe7ee277y",
+    "value" : "TechFirstTestSecond1"
+  }, {
+    "id" : "22r6q5qprox6",
+    "environmentId" : "yx29kgr1ep26",
+    "variableId" : "x7486k6gp419",
+    "value" : "https://valori-dev.outsystemscloud.com/LifeTimeSDK/Login.aspx"
+  } ]
 }

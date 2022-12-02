@@ -2,7 +2,7 @@
   "steps" : null,
   "testStepGroups" : [ {
     "groupType" : 0,
-    "groupName" : "Given user is logged in as outsystems@valori.nl",
+    "groupName" : "New descriptive group",
     "testSteps" : [ {
       "version" : null,
       "result" : null,
@@ -18,7 +18,7 @@
           "value" : "${UsernameOutsystems}"
         }, {
           "id" : "8c343b68-eb73-45c3-80bb-18f086ba1874",
-          "value" : "${PasswordOutsystems}"
+          "value" : "${UsernameOutsystems}"
         } ],
         "ranSteps" : null
       },
@@ -30,9 +30,9 @@
     } ],
     "groupCondition" : null
   } ],
-  "title" : "Login outsystems@valori.nl user",
+  "title" : "Login user and Add a new testcase",
   "description" : null,
-  "id" : "vxmgoq77jv",
+  "id" : "mdgp7j6q20",
   "dataDrivenStorageId" : null,
   "tags" : [ ]
 }

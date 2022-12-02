@@ -2,7 +2,7 @@
   "steps" : null,
   "testStepGroups" : [ {
     "groupType" : 0,
-    "groupName" : "Given user is logged in as outsystems@valori.nl",
+    "groupName" : "Login as Outsystems user to ODCPortal",
     "testSteps" : [ {
       "version" : null,
       "result" : null,
@@ -11,14 +11,14 @@
       "webAction" : null,
       "apiAction" : null,
       "pageActionReference" : {
-        "pageObjectModelId" : "gx2kr77o4po3",
-        "pageActionId" : "671cf56a-0686-4af6-af3c-7515df8b6b5e",
+        "pageObjectModelId" : "39kpro72pgp2",
+        "pageActionId" : "30fa96a2-677e-4c50-b2d1-754a93acfd24",
         "variables" : [ {
-          "id" : "8b68ee26-078f-4ccb-b75a-9310cd6e5529",
-          "value" : "outsystems@valori.nl"
+          "id" : "873bcc72-716d-42ce-a8c1-0e67ff4c778d",
+          "value" : "${UsernameOutsystems}"
         }, {
-          "id" : "8c343b68-eb73-45c3-80bb-18f086ba1874",
-          "value" : "TechFirstTestSecond1"
+          "id" : "4c077e78-54c6-442a-8389-fe0afc2eaa7c",
+          "value" : "${PasswordOutsystems}"
         } ],
         "ranSteps" : null
       },
@@ -30,9 +30,9 @@
     } ],
     "groupCondition" : null
   } ],
-  "title" : "Login outsystems@valori.nl user",
+  "title" : "Login into ODC Portal",
   "description" : null,
-  "id" : "vxmgoq77jv",
+  "id" : "r3ox3xzrjv",
   "dataDrivenStorageId" : null,
   "tags" : [ ]
 }
